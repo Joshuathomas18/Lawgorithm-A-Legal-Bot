@@ -1,0 +1,48 @@
+{
+  "total_petitions": 139,
+  "total_qa_pairs": 440,
+  "courts": {
+    "Bombay High Court": 56,
+    "Chattisgarh High Court": 1,
+    "Supreme Court of India": 38,
+    "Allahabad High Court": 8,
+    "Supreme Court - Daily Orders": 5,
+    "Patna High Court": 5,
+    "Himachal Pradesh High Court": 5,
+    "Delhi High Court - Orders": 2,
+    "Madhya Pradesh High Court": 4,
+    "Jharkhand High Court": 1,
+    "Calcutta High Court (Appellete Side)": 1,
+    "Gujarat High Court": 7,
+    "Punjab-Haryana High Court": 4,
+    "Orissa High Court": 1,
+    "Andhra Pradesh High Court - Amravati": 1
+  },
+  "case_types": {
+    "Appeal": 83,
+    "Civil": 111,
+    "Writ": 90,
+    "Family": 28,
+    "Revision": 25,
+    "Constitutional": 32,
+    "Criminal": 44,
+    "Review": 29,
+    "Special Leave Petition": 18,
+    "Environmental": 2
+  },
+  "date_range": {
+    "earliest": "2018-02-06",
+    "latest": "2023-10-26"
+  },
+  "legal_elements": {
+    "parties": 4224,
+    "case_type": 462,
+    "legal_issues": 1176,
+    "arguments": 0,
+    "precedents": 4057,
+    "sections": 617,
+    "judgments": 0,
+    "relief_sought": 176,
+    "court_orders": 0
+  }
+}

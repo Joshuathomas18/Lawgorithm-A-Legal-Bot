@@ -1,0 +1,167 @@
+[
+  {
+    "instruction": "Answer this question about the petition: **Case Details**",
+    "input": "Phonographic Performance Limited vs Lijo Joy And Ors on 4 August, 2023",
+    "output": "Based on the petition content: **Case Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court and Case Number**",
+    "input": "",
+    "output": "Based on the petition content: **Court and Case Number**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Petitioner and Respondent 1 (Primary Case)**",
+    "input": "Phonographic Performance Limited vs Lijo Joy And Ors on 4 August, 2023\n\nContent:\n<h2 class=\"doc_title\">Phonographic Performance Limited vs Lijo Joy And Ors on 4 August, 2023</h2>\n\n<h3 class=\"doc_author\">Author: <a href=\"/search/?formInput=authorid:r-i-chagla\">R. I. Chagla</a></h3>\n\n<h3 class=\"doc_bench\">Bench: <a href=\"/search/?formInput=benchid:r-i-chagla\">R. I. Chagla</a></h3>\n\n<pre id=\"pre_1\">                                                                                Board Sr.No.:-2\n\n         IN THE HIGH COURT OF JUDICATURE AT BOMBAY\n             ORDINARY ORIGINAL CIVIL JURISDICTION\n\n          INTERIM APPLICATION LODGING NO. 4038 OF 2023\n\n         Phonographic Performance Limited               ....PETITIONER\n                     V/S\n         Lijo Joy And Ors                             ....RESPONDENT",
+    "output": "Based on the petition content: **Petitioner and Respondent 1 (Primary Case)**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Specific Case Details (Example)**",
+    "input": "",
+    "output": "Based on the petition content: **Specific Case Details (Example)**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Another Example of Related Cases**",
+    "input": "",
+    "output": "Based on the petition content: **Another Example of Related Cases**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Advocates for Defendants**",
+    "input": "Adv. Rajiv Narula a/w Ms. Mehek Chowdhary, Mr. Tarang\n Jagtiani, Mr. Milind Mane i/b Jhangiani, Narula and Associates\n for Def. no. 47 in COMIP/363/2019.\n Adv. Rajiv Narula a/w Ms. Mehek Chowdhary, Mr. Tarang\n Jagtiani, Mr. Milind Mane i/b Jhangiani, Narula and Associates\n for Resp. No. 1 in COMIP/291/2019.\n Adv. Rajiv Narula a/w Ms. Mehek Chowdhary, Mr. Tarang\n Jagtiani, Mr. Milind Mane i/b Jhangiani, Narula and Associates\n for Def no. 1 in COMIP/117/2019.\n Adv. Rajiv Narula a/w Ms. Mehek Chowdhary, Mr. Tarang\n Jagtiani, Mr. Milind Mane i/b Jhangiani, Narula and Associates\n for Def. No. 1 in COMIP/156/2023.\n Mohit Khanna, Uttam Rane i/b U S Rane for Def. In\n COMIPL/3997/23.",
+    "output": "Based on the petition content: **Advocates for Defendants**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Further Advocate Information**",
+    "input": "Adv. Hiren Kamod and Adv. Prem Khullar i/b Adv. Abhiraj\n Parab and Adv Pooja Mishra for Def. No. 8 in\n COMIPL/345/2019.\n</p><p data-structure=\"Conclusion\" id=\"p_8\"> Adv. Shreyas Bhatkar for Def. No. 1 and 4. in COMIP/155/2023",
+    "output": "Based on the petition content: **Further Advocate Information**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Additional Advocate Details**",
+    "input": "Adv. Huzefa Nasikwala Def. no. 3 in COMIP/117/2015.\n Adv. Huzefa Nasikwala Def. no. 2 in COMIP/966/2018.\n Adv. Huzefa Nasikwala Def. no. 3 in COMIP/1051/2018.",
+    "output": "Based on the petition content: **Additional Advocate Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **More Advocate Information**",
+    "input": "S. O. to 08/08/2023 ( at 2.30 pm).\n</p>\n\n\n<p data-structure=\"Conclusion\" id=\"p_13\">                                                  ( ASSOCIATE )",
+    "output": "Based on the petition content: **More Advocate Information**"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Details",
+    "input": "IN THE HIGH COURT OF JUDICATURE AT BOMBAY\n             ORDINARY ORIGINAL CIVIL JURISDICTION\n\n          INTERIM APPLICATION LODGING NO. 4038 OF 2023\n\n         Phonographic Performance Limited               ....PETITIONER\n                     V/S\n         Lijo Joy And Ors                             ....RESPONDENT",
+    "output": "Based on the petition content: Case Details"
+  },
+  {
+    "instruction": "Answer this question about the petition: Petitioner Details",
+    "input": "Phonographic Performance Limited               ....PETITIONER\n                     V/S\n         Lijo Joy And Ors                             ....RESPONDENT",
+    "output": "Based on the petition content: Petitioner Details"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondent Details (Repeated across multiple entries)",
+    "input": "Lijo Joy And Ors                             ....RESPONDENT",
+    "output": "Based on the petition content: Respondent Details (Repeated across multiple entries)"
+  },
+  {
+    "instruction": "Answer this question about the petition: Court Proceedings and Next Date",
+    "input": "(Part Heard)\n\n        CORAM :                HON&#x27;BLE SHRI JUSTICE R. I. CHAGLA J\n        DATE :                 4th August, 2023\n P.C. :\n</pre><p data-structure=\"Conclusion\" id=\"p_12\">     S. O. to 08/08/2023 ( at",
+    "output": "Based on the petition content: Court Proceedings and Next Date"
+  },
+  {
+    "instruction": "Answer this question about the petition: Legal Representatives",
+    "input": "Adv. Rajiv Narula a/w Ms. Mehek Chowdhary, Mr. Tarang\n Jagtiani, Mr. Milind Mane i/b Jhangiani, Narula and Associates\n for Def. no. 47 in COMIP/363/2019.\n Adv. Rajiv Narula a/w Ms. Mehek Chowdhary, Mr. Tarang\n Jagtiani, Mr. Milind Mane i/b Jhangiani, Narula and Associates\n for Resp. No. 1 in COMIP/291/2019.\n Adv. Rajiv Narula a/w Ms. Mehek Chowdhary, Mr. Tarang\n Jagtiani, Mr. Milind Mane i/b Jhangiani, Narula and Associates\n for Def no. 1 in COMIP/117/2019.\n Adv. Rajiv Narula a/w Ms. Mehek Chowdhary, Mr. Tarang\n Jagtiani, Mr. Milind Mane i/b Jhangiani, Narula and Associates\n for Def. No. 1 in COMIP/156/2023.\n Mohit Khanna, Uttam Rane i/b U S Rane for Def. In\n COMIPL/3997/23.",
+    "output": "Based on the petition content: Legal Representatives"
+  },
+  {
+    "instruction": "Answer this question about the petition: Additional Legal Representatives (repeated multiple times with varying names)",
+    "input": "Adv. Hiren Kamod and Adv. Prem Khullar i/b Adv. Abhiraj\n Parab and Adv Pooja Mishra for Def. No. 8 in\n COMIPL/345/2019.\n</p><p data-structure=\"Conclusion\" id=\"p_8\"> Adv. Shreyas Bhatkar for Def. No. 1 and 4. in COMIP/155/2023\n WITH IAL/37992/22.\n</p><p data-structure=\"Precedent\" id=\"p_9\"> Adv. Huzefa Nasikwala Def. no. 3 in COMIP/117/2015.\n Adv. Huzefa Nasikwala Def. no. 2 in COMIP/966/2018.\n Adv. Huzefa Nasikwala Def. no. 3 in COMIP/1051/2018.",
+    "output": "Based on the petition content: Additional Legal Representatives (repeated multiple times with varying names)"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Appellant Details**",
+    "input": "M/s Man Global Ltd. Mumbai                        ...Appellant\n                 Vs.\n          Mr. Jitendra Jain                                 ...Respondent",
+    "output": "Based on the petition content: **Appellant Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent Details**",
+    "input": "Mr. Jitendra Jain                                 ...Respondent\n                                              WITH\n                                  SECOND APPEAL NO. 155 OF 2023\n                                              WITH\n                               INTERIM APPLICATION NO. 1728 OF 2023\n\n          Man Global Ltd.                                   ...Appellant\n                 Vs.\n          Dr. Alok Chaturvedi                              ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 667 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n               Vs.\n          Azam Wahid Qureshi                                ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 696 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n               Vs.\n          Meenal Parabh                                     ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.453 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n                Vs.\n          Nikhil K. Kathane                                 ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 660 OF 2022\n\n\n                                                                                        1/9\n\n\n\n              ::: Uploaded on - 31/03/2023                 ::: Downloaded on - 01/04/2023 06:04:59 :::\n                                                                 46-sa-108-2023 +.doc\nPallavi\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n                Vs.\n          Jitendra Jain                                    ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 685 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n                Vs.\n          Tilkesh Soni                                     ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 668 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n               Vs.\n          Antho D&#x27;Souza &amp; Anr.                             ...Respondents",
+    "output": "Based on the petition content: **Respondent Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Numbers**",
+    "input": "SECOND APPEAL NO. 108 OF 2023\n                                             WITH\n                           INTERIM APPLICATION (ST.) NO. 4038 OF 2023\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n                 Vs.\n          Mr. Jitendra Jain                                 ...Respondent\n                                              WITH\n                                  SECOND APPEAL NO. 155 OF 2023\n                                              WITH\n                               INTERIM APPLICATION NO. 1728 OF 2023\n\n          Man Global Ltd.                                   ...Appellant\n                 Vs.\n          Dr. Alok Chaturvedi                              ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 667 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n               Vs.\n          Azam Wahid Qureshi                                ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 696 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n               Vs.\n          Meenal Parabh                                     ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.453 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n                Vs.\n          Nikhil K. Kathane                                 ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 660 OF 2022\n\n\n                                                                                        1/9\n\n\n\n              ::: Uploaded on - 31/03/2023                 ::: Downloaded on - 01/04/2023 06:04:59 :::\n                                                                 46-sa-108-2023 +.doc\nPallavi\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n                Vs.\n          Jitendra Jain                                    ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 685 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n                Vs.\n          Tilkesh Soni                                     ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 668 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n               Vs.\n          Antho D&#x27;Souza &amp; Anr.                             ...Respondents\n                                                WITH\n                                     SECOND APPEAL NO.897 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n               Vs.\n          Monali C Sutrave &amp; Anr.                          ...Respondents\n                                                WITH\n                                     SECOND APPEAL NO.857 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n               Vs.\n          Amreen Bhimani                                   ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.504 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n                 Vs.\n          Brijesh Kumar Mathur                             ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.882 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n               Vs.\n          Rakesh Hiralal Parmat &amp; Anr.                     ...Respondents\n\n                                                                                       2/9\n\n\n\n              ::: Uploaded on - 31/03/2023                ::: Downloaded on - 01/04/2023 06:04:59 :::\n                                                                   46-sa-108-2023 +.doc\nPallavi\n\n                                                WITH\n                                     SECOND APPEAL NO.933 OF 2022\n\n          M/s Man Global Ltd. Mumbai                         ...Appellant\n                Vs.\n          Simin Mohd Arif                                    ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.675 OF 2022\n\n          M/s Man Global Ltd. Mumbai                         ...Appellant\n               Vs.\n          Umesh Ved                                          ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.455 OF 2022\n\n          M/s Man Global Ltd. Mumbai                         ...Appellant\n                Vs.\n          Vikas Khanna &amp; Anr.                              ...Respondents\n                                                WITH\n                                     SECOND APPEAL NO.880 OF 2022\n\n          M/s Man Global Ltd. Mumbai                         ...Appellant\n                Vs.\n          Shivnath Gunda                                     ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.669 OF 2022\n\n          M/s Man Global Ltd. Mumbai                         ...Appellant\n               Vs.\n          Rakesh Kumar Jha                                   ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.454 OF 2022\n\n          M/s Man Global Ltd. Mumbai                         ...Appellant\n               Vs.\n          Gaurav Kumar                                       ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.918 OF 2022\n\n\n                                                                                         3/9\n\n\n\n              ::: Uploaded on - 31/03/2023                  ::: Downloaded on - 01/04/2023 06:04:59 :::\n                                                                 46-sa-108-2023 +.doc\nPallavi\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n               Vs.\n          Neha Chaube                                      ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.692 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n               Vs.\n          Shyampyari Yadav                                 ...Respondent\n                                             WITH\n                                SECOND APPEAL NO. 114 OF 2023\n                                             WITH\n                           INTERIM APPLICATION (ST.) NO. 3928 OF 2023\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n               Vs.\n          Mr. Umesh R. Ved                                 ...Respondent\n                                             WITH\n                                 SECOND APPEAL NO. 109 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4043 OF 2023\n\n          M/s. Man Global Ltd. Mumbai                      ...Appellant\n               Vs.\n          Mr. Amreen Bhimani                               ...Respondent\n                                             WITH\n                                 SECOND APPEAL NO.138 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4012 OF 2023\n\n          M/s. Man Global Ltd. Mumbai                      ...Appellant\n                Vs.\n          Mr. Nikhil Kumar Kathane                         ...Respondent\n\n                                             WITH\n                                 SECOND APPEAL NO. 113 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.3926 OF 2023\n\n\n                                                                                       4/9\n\n\n\n              ::: Uploaded on - 31/03/2023                ::: Downloaded on - 01/04/2023 06:04:59 :::\n                                                                 46-sa-108-2023 +.doc\nPallavi\n\n          M/s. Man Global Ltd. Mumbai                      ...Appellant\n                Vs.\n          Mr. Brijesh K Mathur                             ...Respondent\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4009 OF 2023\n                                              IN\n                                 SECOND APPEAL NO. 113 OF 2023\n\n          M/s. Man Global Ltd. Mumbai                      ...Appellant\n                Vs.\n          Tilkesh Rameshchandra Soni                       ...Respondent\n                                             WITH\n                                 SECOND APPEAL NO. 123 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4216 OF 2023\n\n          M/s Man Global Ltd Mumbai                        ...Appellant\n                Vs.\n          Mrs. Monali C. Sutrave And Anr                   ...Respondents\n                                             WITH\n                                 SECOND APPEAL NO. 119 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4015 OF 2023\n\n          M/s. Man Global Ltd. Mumbai                      ...Appellant\n                Vs.\n          Mrs. Simin Asif And Anr.                         ...Respondents\n\n                                             WITH\n                                 SECOND APPEAL NO. 110 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4010 OF 2023\n\n          M/s. Man Global Ltd. Mumbai                      ...Appellant\n                Vs.\n          Mrs. Meenal Parab And Anr                        ...Respondents\n                                                WITH\n                                     SECOND APPEAL NO.121 OF 2023\n                                                WITH\n\n                                                                                       5/9\n\n\n\n              ::: Uploaded on - 31/03/2023                ::: Downloaded on - 01/04/2023 06:04:59 :::\n                                                                 46-sa-108-2023 +.doc\nPallavi\n\n                            INTERIM APPLICATION (ST.) NO.4017 OF 2023\n\n          M/s. Man Global Ltd. Mumbai                      ...Appellant\n                Vs.\n          Mr. Vikas Khanna And Anr.                        ...Respondents\n                                               WITH\n                                    SECOND APPEAL NO. 117 OF 2023\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n                Vs.\n          Mr. Rakesh Hiralal Parmar And Anr.               ...Respondents\n                                             WITH\n                                 SECOND APPEAL NO. 112 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4020 OF 2023\n\n          M/s Man Global Ltd Mumbai                        ...Appellant\n               Vs.\n          Ms. Neha Chaube                                  ...Respondent\n                                             WITH\n                                 SECOND APPEAL NO. 118 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4021 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4219 OF 2023\n\n          M/s. Man Global Ltd Mumbai                       ...Appellant\n                Vs.\n          Mr. Rakesh Kumar Jha And Anr.                    ...Respondents\n                                             WITH\n                                 SECOND APPEAL NO. 120 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4037 OF 2023\n\n          M/s. Man Global Ltd Mumbai                       ...Appellant\n                 Vs.\n          Mr. Jitendra Jain                                ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 115 OF 2023\n\n                                                                                       6/9\n\n\n\n              ::: Uploaded on - 31/03/2023                ::: Downloaded on - 01/04/2023 06:04:59 :::\n                                                               46-sa-108-2023 +.doc\nPallavi\n\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4041 OF 2023\n\n          M/s. Man Global Ltd Mumbai                     ...Appellant\n                Vs.\n          Mr. Azam Wahid Qureshi                         ...Respondent\n                                             WITH\n                                 SECOND APPEAL NO.122 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4026 OF 2023\n\n          M/s Man Global Ltd Mumbai                      ...Appellant\n                Vs.\n          Mr. Anthony Dsouza And Anr.                    ...Respondents\n                                             WITH\n                                 SECOND APPEAL NO. 116 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4222 OF 2023\n\n          M/s Man Global Ltd Mumbai                      ...Appellant\n                Vs.\n          Mr. Sadiqali Mankar                            ...Respondent\n                                             WITH\n                                 SECOND APPEAL NO. 111 OF 2023\n                                             WITH\n                            INTERIM APPLICATION (ST.) NO.4049 OF 2023\n\n          M/s Man Global Ltd Mumbai                      ...Appellant\n                Vs.\n          Mr. Deepak Agarwal And Anr.                    ...Respondent(s)\n                                             .........\n\n          SA/108/2023 with IA/ST/4038/2023 in SA/108/2023 with SA/155/2023 with\n          IA/1728/2023 in SA/155/2023 with SA/667/2022 with SA/696/2022 with\n          SA/453/2022 with SA/660/2022 with SA/685/2022 with SA/668/2022 with\n          SA/897/2022 with SA/857/2022 with SA/504/2022 with SA/882/2022 with\n          SA/933/2022 with SA/675/2022 with SA/455/2022 with SA/880/2022 with\n          SA/669/2022 with SA/454/2022 with SA/918/2022 with SA/692/2022 with\n          SA/114/2023 with IA/ST/3928/2023 in SA/114/2023 with SA/109/2023 with\n\n\n                                                                                     7/9\n\n\n\n              ::: Uploaded on - 31/03/2023              ::: Downloaded on - 01/04/2023 06:04:59 :::\n                                                                        46-sa-108-2023 +.doc\nPallavi\n\n          IA/ST/4043/2023 in SA/109/2023 with SA/138/2023 with IA/ST/4012/2023 in\n          SA/138/2023 with SA/113/2023 with IA/ST/3926/2023 in SA/113/2023 with\n          IA/4009/2023 in SA/113/2023 with SA/123/2023 with IA/ST/4216/2023 in\n          SA/123/2023 with SA/119/2023 with IA/ST/4015/2023 in SA/119/2023 with SA/\n          110/2023 with IA/ST/4010/2023 in SA/110/2023 with SA/121/2023 with IA/ST/\n          4017/2023 in SA/121/2023 with SA/117/2023 with SA/112/2023 with\n          IA/ST/4020/2023 in SA/112/2023 with SA/118/2023 with IA/ST/4021/2023 in\n          SA/118/2023 with IA/ST/4219/2023 in SA/118/2023 with SA/120/2023 with\n          IA/ST/4037/2023 in SA/120/2023 with SA/115/2023 with IA/ST/4041/2023 in\n          SA/115/2023 with SA/122/2023 with IA/ST/4026/2023 in SA/122/2023 with SA/\n          116/2023 with       IA/ST/4222/2023 in SA/116/2023 SA/111/2023 with\n          IA/ST/4049/2023 in SA/111/2023.",
+    "output": "Based on the petition content: **Case Numbers**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Legal Representation**",
+    "input": "",
+    "output": "Based on the petition content: **Legal Representation**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court Hearing Summary**",
+    "input": "The Appellant has tendered in tabular form the relevant details.\n</blockquote>\n\n<span class=\"hidden_text\" id=\"span_1\">                                                                                              8/9</span>\n\n\n\n<span class=\"hidden_text\" id=\"span_2\">                   ::: Uploaded on - 31/03/2023                  ::: Downloaded on - 01/04/2023 06:04:59 :::</span>\n<p data-structure=\"RespArg\" id=\"p_2\">                                                                   46-sa-108-2023 +.doc\nPallavi\n\n          The learned Advocates appearing for the Respondents as well as\n\n          Mr. Chandrakant Sutrave, Respondent who appears in person in Second\n\n          Appeal No.897 of 2022 tenders written arguments.\n</p>\n<p data-structure=\"Conclusion\" id=\"p_3\">          2.     Stand over to 26th April 2023 at 2.30 pm for passing orders.",
+    "output": "Based on the petition content: **Court Hearing Summary**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court Adjournment**",
+    "input": "Stand over to 26th April 2023 at 2.30 pm for passing orders.",
+    "output": "Based on the petition content: **Court Adjournment**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Judge's Signature**",
+    "input": "[MADHAV J. JAMDAR, J.]",
+    "output": "Based on the petition content: **Judge's Signature**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Details**",
+    "input": "Virendra Satyadev Singh Heir Of Late ... vs The Board Of Trustees Of The Port Of ... on 19 April, 2023",
+    "output": "Based on the petition content: **Case Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Petitioners and Respondents**",
+    "input": "Shah Ramniklal Tokarshi                      ....PETITIONER\n            V/S\n The Board Of Trustees Of Port Of Bombay (now\n                                           ....RESPONDENT</pre>\n<p data-structure=\"Issue\" id=\"p_1\"> Known As Mumbai Port Authority) And 2 Ors.",
+    "output": "Based on the petition content: **Petitioners and Respondents**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Multiple Petitions**",
+    "input": "Known As Mumbai Port Authority) And 2 Ors.",
+    "output": "Based on the petition content: **Multiple Petitions**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Multiple Petitions (cont.)**",
+    "input": "",
+    "output": "Based on the petition content: **Multiple Petitions (cont.)**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Multiple Petitions (cont.)**",
+    "input": "Mumbai Port Authority) And 2 Ors.",
+    "output": "Based on the petition content: **Multiple Petitions (cont.)**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court Ruling**",
+    "input": "Balance Daily Board cannot be taken up today on account of\n     paucity of time. Stand over to 22/06/2023 . Ad-interim relief or\n     interim relief, if any, granted earlier will continue to operate till\n     next date.",
+    "output": "Based on the petition content: **Court Ruling**"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Details",
+    "input": "Prakash Tukaram Mate And Ors vs The State Of Maharashtra And Ors on 6 April, 2023",
+    "output": "Based on the petition content: Case Details"
+  },
+  {
+    "instruction": "Answer this question about the petition: Petitioners Involved",
+    "input": "Syed Wajid Ali Shah Kadri And Ors              ....PETITIONER\n            V/S\n State Of Maharashtra Thru The Prin. Secretary,\n                                             ....RESPONDENT</pre>\n<p data-structure=\"Facts\" id=\"p_1\"> Revenue And Forest Dept. And Ors\n\n                            WITH\n               WRIT PETITION NO. 12231 OF 2018\n\n Trimbak Laxman Joshi, Through P.a. Holder ....PETITIONER\n Santosh T Joshi\n             V/S\n The State Of Maharahstra And Ors.",
+    "output": "Based on the petition content: Petitioners Involved"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondents Involved",
+    "input": "",
+    "output": "Based on the petition content: Respondents Involved"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Adjournment",
+    "input": "",
+    "output": "Based on the petition content: Case Adjournment"
+  },
+  {
+    "instruction": "Answer this question about the petition: Hearing Date",
+    "input": "",
+    "output": "Based on the petition content: Hearing Date"
+  }
+]

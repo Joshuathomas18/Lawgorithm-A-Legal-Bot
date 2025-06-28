@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "jurisdiction": "HC",
+    "petition_type": "CIVIL",
+    "case_id": "mock_001",
+    "collection_date": "2024-02-01T10:00:00"
+  },
+  "structure": {
+    "case_id": "mock_001",
+    "title": "IN THE HIGH COURT OF BOMBAY",
+    "court": "High Court of Bombay",
+    "date": "2024-01-15",
+    "citations": ["2024 BHC 123"],
+    "sections": [],
+    "headers": ["FACTS:", "GROUNDS:", "RELIEF:", "PRAYER:"],
+    "legal_phrases": ["IN THE HIGH COURT OF", "COMES NOW", "WHEREFORE", "PRAYED FOR", "RESPECTFULLY SUBMITS"]
+  },
+  "content": {
+    "case_id": "mock_001",
+    "facts": "The petitioner entered into a contract with the respondent for supply of goods. The respondent failed to deliver the goods within the stipulated time and refused to refund the advance payment.",
+    "grounds": "Breach of contract under Section 73 of Indian Contract Act, 1872. The respondent has committed fundamental breach of contract.",
+    "relief": "Refund of advance payment with interest at 12% per annum from the date of payment.",
+    "arguments": "The petitioner has fulfilled all obligations under the contract. The respondent's failure to deliver constitutes breach of contract.",
+    "conclusion": "The petitioner is entitled to relief as prayed for.",
+    "parties": ["Petitioner: ABC Company", "Respondent: XYZ Corporation"],
+    "precedents": ["2020 SC 123", "2019 BHC 456"]
+  },
+  "raw_data": {
+    "id": "mock_001",
+    "title": "ABC Company vs XYZ Corporation",
+    "content": "IN THE HIGH COURT OF BOMBAY\n\nFACTS:\nThe petitioner entered into a contract...\n\nGROUNDS:\nBreach of contract under Section 73...\n\nRELIEF:\nRefund of advance payment...\n\nPRAYER:\nMay it please the court..."
+  }
+} 

@@ -1,0 +1,162 @@
+[
+  {
+    "instruction": "Answer this question about the petition: Case Overview",
+    "input": "",
+    "output": "Based on the petition content: Case Overview"
+  },
+  {
+    "instruction": "Answer this question about the petition: Issue - Judge's Statement",
+    "input": "K.M. JOSEPH, J.",
+    "output": "Based on the petition content: Issue - Judge's Statement"
+  },
+  {
+    "instruction": "Answer this question about the petition: Precedent Index",
+    "input": "THE REFERENCE............................................................................................................................... 2\n          B.          A BIRD’S OVERVIEW OF THE FACTS IN N.N. GLOBAL ......................................................................",
+    "output": "Based on the petition content: Precedent Index"
+  },
+  {
+    "instruction": "Answer this question about the petition: Issue - Reference Summary",
+    "input": "A Bench of three learned Judges disposed of Civil\n\nAppeal             Nos.             3802-3803                     of         2020            by         Judgment                    dated\n\n11.01.2021. The Judgment is reported in <a href=\"/doc/39641512/\" id=\"a_1\">N.N. Global\n\nMercantile Private Limited v. Indo Unique Flame Limited</a>\n\nand others1.",
+    "output": "Based on the petition content: Issue - Reference Summary"
+  },
+  {
+    "instruction": "Answer this question about the petition: Precedent - Cited Judgement",
+    "input": "considered view that the\n           finding in <a href=\"/doc/24736/\" id=\"a_2\">SMS Tea Estates [SMS Tea Estates (P)\n           Ltd. v. Chandmari Tea Co. (P) Ltd.</a>, (2011) 14\n           SCC   66   :   (<a href=\"/doc/26596259/\" id=\"a_3\">2012)   4   SCC    (Civ)   777]\n           and Garware [Garware         Wall         Ropes\n           Ltd. v. Coastal Marine Constructions &amp; Engg.\n           Ltd.</a>, (2019) 9 SCC 209 : (2019) 4 SCC (Civ)\n\n<span class=\"hidden_text\" id=\"span_7\">1</span>\n     (2021) 4 SCC 379\n<span class=\"hidden_text\" id=\"span_8\">                                                                      2</span>\n\f     324] that the non-payment of stamp duty on the\n     commercial contract would invalidate even the\n     arbitration agreement, and render it non-</span></span>\n</blockquote><p data-structure=\"Issue\" id=\"p_8\">     existent in law, and unenforceable, is not the\n     correct position in law.",
+    "output": "Based on the petition content: Precedent - Cited Judgement"
+  },
+  {
+    "instruction": "Answer this question about the petition: Precedent - Reference Issue",
+    "input": "",
+    "output": "Based on the petition content: Precedent - Reference Issue"
+  },
+  {
+    "instruction": "Answer this question about the petition: Precedent - Facts Overview",
+    "input": "",
+    "output": "Based on the petition content: Precedent - Facts Overview"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Details**",
+    "input": "IN THE HIGH COURT OF JUDICATURE AT BOMBAY\n                                 CIVIL APPELLATE JURISDICTION\n\n                                SECOND APPEAL NO. 108 OF 2023\n                                             WITH\n                           INTERIM APPLICATION (ST.) NO. 4038 OF 2023\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n                 Vs.\n          Mr. Jitendra Jain                                 ...Respondent",
+    "output": "Based on the petition content: **Case Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Appellant Details**",
+    "input": "M/s Man Global Ltd. Mumbai                        ...Appellant\n                 Vs.\n          Mr. Jitendra Jain                                 ...Respondent",
+    "output": "Based on the petition content: **Appellant Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent Details**",
+    "input": "Mr. Jitendra Jain                                 ...Respondent\n                                              WITH\n                                  SECOND APPEAL NO. 155 OF 2023\n                                              WITH\n                               INTERIM APPLICATION NO. 1728 OF 2023\n\n          Man Global Ltd.                                   ...Appellant\n                 Vs.\n          Dr. Alok Chaturvedi                              ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 667 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n               Vs.\n          Azam Wahid Qureshi                                ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 696 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n               Vs.\n          Meenal Parabh                                     ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.453 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n                Vs.\n          Nikhil K. Kathane                                 ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 660 OF 2022\n\n\n                                                                                        1/9\n\n\n\n              ::: Uploaded on - 31/03/2023                 ::: Downloaded on - 01/04/2023 06:03:20 :::\n                                                                 46-sa-108-2023 +.doc\nPallavi\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n                Vs.\n          Jitendra Jain                                    ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 685 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n                Vs.\n          Tilkesh Soni                                     ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 668 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n               Vs.\n          Antho D&#x27;Souza &amp; Anr.                             ...Respondents",
+    "output": "Based on the petition content: **Respondent Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court Proceedings**",
+    "input": "The Appellant has tendered in tabular form the relevant details.\n</blockquote>\n\n<span class=\"hidden_text\" id=\"span_1\">                                                                                              8/9</span>\n\n\n\n<span class=\"hidden_text\" id=\"span_2\">                   ::: Uploaded on - 31/03/2023                  ::: Downloaded on - 01/04/2023 06:03:20 :::</span>\n<p data-structure=\"RespArg\" id=\"p_2\">                                                                   46-sa-108-2023 +.doc\nPallavi\n\n          The learned Advocates appearing for the Respondents as well as\n\n          Mr. Chandrakant Sutrave, Respondent who appears in person in Second\n\n          Appeal No.897 of 2022 tenders written arguments.\n</p>\n<p data-structure=\"Conclusion\" id=\"p_3\">          2.     Stand over to 26th April 2023 at 2.30 pm for passing orders.",
+    "output": "Based on the petition content: **Court Proceedings**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Legal Representation**",
+    "input": "",
+    "output": "Based on the petition content: **Legal Representation**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Bench Details**",
+    "input": "CORAM : MADHAV J. JAMDAR, J.",
+    "output": "Based on the petition content: **Bench Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Adjournment**",
+    "input": "Stand over to 26th April 2023 at 2.30 pm for passing orders.",
+    "output": "Based on the petition content: **Adjournment**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Next Hearing Date**",
+    "input": "Stand over to 26th April 2023 at 2.30 pm for passing orders.",
+    "output": "Based on the petition content: **Next Hearing Date**"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Details",
+    "input": "M/S. Biovet Private Limited vs The Collector, Pune And Ors on 2 March, 2023",
+    "output": "Based on the petition content: Case Details"
+  },
+  {
+    "instruction": "Answer this question about the petition: Petitioners and Respondents",
+    "input": "Syed Wajid Ali Shah Kadri and Ors.                               ....Petitioners\n      V/s.\nThe State of Maharashtra,\nThrough Principal Secretary,\nRevenue and Forest Department\nand Ors.                                                         ...Respondents",
+    "output": "Based on the petition content: Petitioners and Respondents"
+  },
+  {
+    "instruction": "Answer this question about the petition: Legal Representation",
+    "input": "(RAJESH S. PATIL, J.)                                     (K.R. SHRIRAM, J.)",
+    "output": "Based on the petition content: Legal Representation"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Appeal Origin**",
+    "input": "",
+    "output": "Based on the petition content: **Appeal Origin**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Facts: FIR Details**",
+    "input": "",
+    "output": "Based on the petition content: **Case Facts: FIR Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Facts: Appellant's Claim**",
+    "input": "",
+    "output": "Based on the petition content: **Case Facts: Appellant's Claim**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Facts: Discovery of Forgery**",
+    "input": "",
+    "output": "Based on the petition content: **Case Facts: Discovery of Forgery**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Facts: Alleged Fraud**",
+    "input": "",
+    "output": "Based on the petition content: **Case Facts: Alleged Fraud**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Facts: Sale Deed Irregularities**",
+    "input": "The complaint also mentioned the current\n\nmarket value of the Appellants&#x27; land, measuring 15\n\nKanal 2 Marla, as being approximately                            not less\n\nthan Rs. 50 crores. However, in the 2022 Sale Deed,\n\nthe sale consideration was shown as an abjectly low\n\nand meager amount of Rs. 6,60,62,500/­, which\n\nwas significantly below its actual asking price.\n\nMoreover, the Appellants had not received even this\n\nminiscule amount even if the 2022 Sale Deed was\n\nhypothetically considered to be valid. Thus, this\n\ndocument was clearly created by Respondent No. 2\n\nand the co­accused in collusion with the witnesses,\n\nthe scribe, and officials of the Sub­Registrar Tehsil\n\nKadipur,        District      Gurugram,           with     the      unholy\n\nintention to wisk the property away from the                             the\n\n\n\n\n<span class=\"hidden_text\" id=\"span_12\">Crl. A. No.___ of 2023 @ SLP (CRL.) D. NO. 20936 OF 2022         Page 6 of 32</span>\n\fcomplainants and place it under the possession of\n\nthe accused.",
+    "output": "Based on the petition content: **Case Facts: Sale Deed Irregularities**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Lower Court Ruling: Additional Sessions Judge**",
+    "input": "",
+    "output": "Based on the petition content: **Lower Court Ruling: Additional Sessions Judge**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Lower Court Ruling: High Court**",
+    "input": "",
+    "output": "Based on the petition content: **Lower Court Ruling: High Court**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Appellant's Argument**",
+    "input": "Shri Saket Sikri, learned counsel for the\n\nAppellants, vehemently contended that the High\n\nCourt acted on the erroneous assumption that the\n\nalleged 1996 GPA in favor of Respondent No. 2 is\n\ngenuine. The original copy of 1996 GPA has not\n\nbeen recovered by the police till date, and hence,\n\ncustodial interrogation is required. Furthermore, the\n\nHigh Court failed to consider that despite the 1996\n\nGPA being executed in favour of Respondent No. 2,\n\nhe applied for its certified copy only in February\n\n2022, i.e., 26 years later, whereas he should have\n\npossessed the original already if his claim is to be\n\nbona      fide.     The      present        case      is   one   where\n\nRespondent No. 2, in collusion with other accused\n\npersons, has carried out an elaborate fraud against\n\nthe Appellants, who are vulnerable owing to their\n\nage and the NRI status. Additionally, the signatures\n\n\n\n\n<span class=\"hidden_text\" id=\"span_20\">Crl. A. No.___ of 2023 @ SLP (CRL.) D. NO. 20936 OF 2022     Page 12 of 32</span>\n\fused by Appellant No. 2 during the period between\n\n1990­2000 are dissimilar, unalike and non­identical\n\nfrom those inscribed on the alleged GPA dated\n\n18.09.1996. In addition, the consideration of the\n\nalleged sale deed ­ Rs. 6.60 crores ­ is far less than\n\nthe market value of the Subject Land, which is\n\nstated to be Rs. 50",
+    "output": "Based on the petition content: **Appellant's Argument**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent's Argument (State)**",
+    "input": "",
+    "output": "Based on the petition content: **Respondent's Argument (State)**"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Details",
+    "input": "Bharat Bhogilal Patel vs Indian Files Pvt.Ltd. And 2 Ors on 4 July, 2023",
+    "output": "Based on the petition content: Case Details"
+  },
+  {
+    "instruction": "Answer this question about the petition: Petitioner Details",
+    "input": "Bharat Bhogilal Patel vs Indian Files Pvt.Ltd. And 2 Ors on 4 July, 2023\n\nContent:\n<h2 class=\"doc_title\">Bharat Bhogilal Patel vs Indian Files Pvt.Ltd. And 2 Ors on 4 July, 2023</h2>\n\n<h3 class=\"doc_author\">Author: <a href=\"/search/?formInput=authorid:r-i-chagla\">R. I. Chagla</a></h3>\n\n<h3 class=\"doc_bench\">Bench: <a href=\"/search/?formInput=benchid:r-i-chagla\">R. I. Chagla</a></h3>\n\n<pre id=\"pre_1\">                                                                                 Board Sr.No.:-8\n\n         IN THE HIGH COURT OF JUDICATURE AT BOMBAY\n             ORDINARY ORIGINAL CIVIL JURISDICTION\n\nCOMMERCIAL INTELLECTUAL PROPERTY RIGHTS SUITS NO. 141 OF 2014\n\n         Bharat Bhogilal Patel                            ....PETITIONER",
+    "output": "Based on the petition content: Petitioner Details"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondent Details",
+    "input": "Allflex India Pvt.ltd.                          ....RESPONDENT",
+    "output": "Based on the petition content: Respondent Details"
+  },
+  {
+    "instruction": "Answer this question about the petition: Next Hearing Date",
+    "input": "S. O. to 25/07/2023 .",
+    "output": "Based on the petition content: Next Hearing Date"
+  }
+]

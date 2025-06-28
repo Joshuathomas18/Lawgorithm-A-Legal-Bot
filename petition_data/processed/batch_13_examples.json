@@ -1,0 +1,177 @@
+[
+  {
+    "instruction": "Answer this question about the petition: **Case Details**",
+    "input": "Phonographic Performance Ltd vs Corum Hospitality And 4 Ors on 4 August, 2023",
+    "output": "Based on the petition content: **Case Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Parties**",
+    "input": "Phonographic Performance Limited               ....PETITIONER\n                     V/S\n         Lijo Joy And Ors                             ....RESPONDENT",
+    "output": "Based on the petition content: **Case Parties**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent Representation 1**",
+    "input": "Adv. Rajiv Narula a/w Ms. Mehek Chowdhary, Mr. Tarang\n Jagtiani, Mr. Milind Mane i/b Jhangiani, Narula and Associates\n for Def. no. 47 in COMIP/363/2019.",
+    "output": "Based on the petition content: **Respondent Representation 1**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent Representation 2**",
+    "input": "Adv. Hiren Kamod and Adv. Prem Khullar i/b Adv. Abhiraj\n Parab and Adv Pooja Mishra for Def. No. 8 in\n COMIPL/345/2019.",
+    "output": "Based on the petition content: **Respondent Representation 2**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent Representation 3**",
+    "input": "Adv. Shreyas Bhatkar for Def. No. 1 and 4. in COMIP/155/2023\n WITH IAL/37992/22.",
+    "output": "Based on the petition content: **Respondent Representation 3**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent Representation 4**",
+    "input": "Adv. Huzefa Nasikwala Def. no. 3 in COMIP/117/2015.\n Adv. Huzefa Nasikwala Def. no. 2 in COMIP/966/2018.\n Adv. Huzefa Nasikwala Def. no. 3 in COMIP/1051/2018.",
+    "output": "Based on the petition content: **Respondent Representation 4**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent Representation 5**",
+    "input": "",
+    "output": "Based on the petition content: **Respondent Representation 5**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent Representation 6**",
+    "input": "S. O. to 08/08/2023 ( at 2.30 pm).",
+    "output": "Based on the petition content: **Respondent Representation 6**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Details**",
+    "input": "Krishna Nagindas Mehta vs Mumbai Ports Authority (Formerly Known ... on 19 April, 2023",
+    "output": "Based on the petition content: **Case Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Petitioners and Respondents**",
+    "input": "Shah Ramniklal Tokarshi                      ....PETITIONER\n            V/S\n The Board Of Trustees Of Port Of Bombay (now\n                                           ....RESPONDENT</pre>\n<p data-structure=\"Issue\" id=\"p_1\"> Known As Mumbai Port Authority) And 2 Ors.",
+    "output": "Based on the petition content: **Petitioners and Respondents**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Multiple Petitions**",
+    "input": "Known As Mumbai Port Authority) And 2 Ors.",
+    "output": "Based on the petition content: **Multiple Petitions**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court and Bench**",
+    "input": "IN THE HIGH COURT OF JUDICATURE AT BOMBAY\n     ORDINARY ORIGINAL CIVIL JURISDICTION\n\n                 WRIT PETITION NO. 357 OF 2023\n\n Shah Ramniklal Tokarshi                      ....PETITIONER\n            V/S\n The Board Of Trustees Of Port Of Bombay (now\n                                           ....RESPONDENT</pre>\n<p data-structure=\"Issue\" id=\"p_1\"> Known As Mumbai Port Authority) And 2 Ors.\n</p>\n<p data-structure=\"Facts\" id=\"p_2\">                            WITH\n                WRIT PETITION NO. 3608 OF 2022\n\n H And Lr Khanbhai Alibhai Charania          ....PETITIONER\n            V/S\n The Board Of Trustees Of The Port Of Bombay\n                                          ....RESPONDENT\n And 2 Ors\n\n                            WITH\n                WRIT PETITION NO. 3747 OF 2022\n\n K. S. Ramachandran                          ....PETITIONER\n            V/S\n The Board Of Trustees Of The Port Of Bombay\n                                          ....RESPONDENT\n And Anr\n\n                            WITH\n                WRIT PETITION NO. 4099 OF 2022\n\n Rajen Chhotalal Jani                        ....PETITIONER\n            V/S\n The Board Of Trustees Of The Port Of Bombay\n                                          ....RESPONDENT\n And 2 Ors\n\n\n<span class=\"hidden_text\" id=\"span_1\">                                                                         Page 1/13</span>\n\n<span class=\"hidden_text\" id=\"span_2\">::: Uploaded on - 21/04/2023            ::: Downloaded on - 22/04/2023 06:34:51",
+    "output": "Based on the petition content: **Court and Bench**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court Order**",
+    "input": "Balance Daily Board cannot be taken up today on account of\n     paucity of time. Stand over to 22/06/2023 . Ad-interim relief or\n     interim relief, if any, granted earlier will continue to operate till\n     next date.",
+    "output": "Based on the petition content: **Court Order**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Details**",
+    "input": "Phonographic Performance Ltd vs Avion Hospitality Pvt. Ltd. And 12 Ors on 4 August, 2023",
+    "output": "Based on the petition content: **Case Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court and Case Number**",
+    "input": "",
+    "output": "Based on the petition content: **Court and Case Number**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Petitioner**",
+    "input": "Phonographic Performance Limited               ....PETITIONER",
+    "output": "Based on the petition content: **Petitioner**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent in IA 4038/2023**",
+    "input": "Lijo Joy And Ors                             ....RESPONDENT",
+    "output": "Based on the petition content: **Respondent in IA 4038/2023**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Linked Cases (Part 6)**",
+    "input": "(Part Heard)\n\n        CORAM :                HON&#x27;BLE SHRI JUSTICE R. I. CHAGLA J\n        DATE :                 4th August, 2023\n P.C. :\n</pre><p data-structure=\"Conclusion\" id=\"p_12\">     S. O. to 08/08/2023 ( at 2.30 pm).",
+    "output": "Based on the petition content: **Linked Cases (Part 6)**"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Details",
+    "input": "Vice Chancellor Solapur University, ... vs Tukaram Sambhu Sabale (Deceased) Thr. ... on 26 October, 2023",
+    "output": "Based on the petition content: Case Details"
+  },
+  {
+    "instruction": "Answer this question about the petition: Appellant Details",
+    "input": "Vice Chancellor Solapur University, ... vs Tukaram Sambhu Sabale (Deceased) Thr. ... on 26 October, 2023\n\nContent:\n<h2 class=\"doc_title\">Vice Chancellor Solapur University, ... vs Tukaram Sambhu Sabale (Deceased) Thr. ... on 26 October, 2023</h2>\n\n<h3 class=\"doc_author\">Author: <a href=\"/search/?formInput=authorid:a-prabhudessai\">Anuja Prabhudessai</a></h3>\n\n<h3 class=\"doc_bench\">Bench: <a href=\"/search/?formInput=benchid:a-prabhudessai\">Anuja Prabhudessai</a></h3>\n\n<pre id=\"pre_1\">                                                                    Board Sr.No.:-901\n\n IN THE HIGH COURT OF JUDICATURE AT BOMBAY\n      APPELLATE SIDE CIVIL JURISDICTION\n\n          FIRST APPEAL STAMP NO. 18038 OF 2021\n\n Vice Chancellor Solapur University, Solapur. ....APPELLANT\n            V/S\n Shankar Tharu Rathod (deceased) Thr. His Lrs.\n                                             ....RESPONDENT",
+    "output": "Based on the petition content: Appellant Details"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondent Details 1",
+    "input": "Shankar Tharu Rathod (deceased) Thr. His Lrs.\n                                             ....RESPONDENT",
+    "output": "Based on the petition content: Respondent Details 1"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondent Details 2",
+    "input": "",
+    "output": "Based on the petition content: Respondent Details 2"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondent Details 3",
+    "input": "",
+    "output": "Based on the petition content: Respondent Details 3"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondent Details 4",
+    "input": "",
+    "output": "Based on the petition content: Respondent Details 4"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondent Details 5",
+    "input": "Vice Chancellor Solapur University, ... vs Tukaram Sambhu Sabale (Deceased) Thr. ... on 26 October, 2023\n\nContent:\n<h2 class=\"doc_title\">Vice Chancellor Solapur University, ... vs Tukaram Sambhu Sabale (Deceased) Thr. ... on 26 October, 2023</h2>\n\n<h3 class=\"doc_author\">Author: <a href=\"/search/?formInput=authorid:a-prabhudessai\">Anuja Prabhudessai</a></h3>\n\n<h3 class=\"doc_bench\">Bench: <a href=\"/search/?formInput=benchid:a-prabhudessai\">Anuja Prabhudessai</a></h3>\n\n<pre id=\"pre_1\">                                                                    Board Sr.No.:-901\n\n IN THE HIGH COURT OF JUDICATURE AT BOMBAY\n      APPELLATE SIDE CIVIL JURISDICTION\n\n          FIRST APPEAL STAMP NO. 18038 OF 2021\n\n Vice Chancellor Solapur University, Solapur. ....APPELLANT\n            V/S\n Shankar Tharu Rathod (deceased) Thr. His Lrs.\n                                             ....RESPONDENT",
+    "output": "Based on the petition content: Respondent Details 5"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondent Details 6",
+    "input": "",
+    "output": "Based on the petition content: Respondent Details 6"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondent Details 7",
+    "input": "Vice Chancellor Solapur University, ... vs Tukaram Sambhu Sabale (Deceased) Thr. ... on 26 October, 2023\n\nContent:\n<h2 class=\"doc_title\">Vice Chancellor Solapur University, ... vs Tukaram Sambhu Sabale (Deceased) Thr. ... on 26 October, 2023</h2>\n\n<h3 class=\"doc_author\">Author: <a href=\"/search/?formInput=authorid:a-prabhudessai\">Anuja Prabhudessai</a></h3>\n\n<h3 class=\"doc_bench\">Bench: <a href=\"/search/?formInput=benchid:a-prabhudessai\">Anuja Prabhudessai</a></h3>\n\n<pre id=\"pre_1\">                                                                    Board Sr.No.:-901\n\n IN THE HIGH COURT OF JUDICATURE AT BOMBAY\n      APPELLATE SIDE CIVIL JURISDICTION\n\n          FIRST APPEAL STAMP NO. 18038 OF 2021\n\n Vice Chancellor Solapur University, Solapur. ....APPELLANT\n            V/S\n Shankar Tharu Rathod (deceased) Thr. His Lrs.\n                                             ....RESPONDENT",
+    "output": "Based on the petition content: Respondent Details 7"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondent Details 8",
+    "input": "",
+    "output": "Based on the petition content: Respondent Details 8"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Details**",
+    "input": "Man Global Limited Mumbai- 400056 vs Rakesh Hiralal Parmat And Anr on 29 March, 2023",
+    "output": "Based on the petition content: **Case Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Appellant Details**",
+    "input": "M/s Man Global Ltd. Mumbai                        ...Appellant\n                 Vs.\n          Mr. Jitendra Jain                                 ...Respondent",
+    "output": "Based on the petition content: **Appellant Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent Details**",
+    "input": "Mr. Jitendra Jain                                 ...Respondent\n                                              WITH\n                                  SECOND APPEAL NO. 155 OF 2023\n                                              WITH\n                               INTERIM APPLICATION NO. 1728 OF 2023\n\n          Man Global Ltd.                                   ...Appellant\n                 Vs.\n          Dr. Alok Chaturvedi                              ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 667 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n               Vs.\n          Azam Wahid Qureshi                                ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 696 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n               Vs.\n          Meenal Parabh                                     ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.453 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n                Vs.\n          Nikhil K. Kathane                                 ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 660 OF 2022\n\n\n                                                                                        1/9\n\n\n\n              ::: Uploaded on - 31/03/2023                 ::: Downloaded on - 01/04/2023 06:03:35 :::\n                                                                 46-sa-108-2023 +.doc\nPallavi\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n                Vs.\n          Jitendra Jain                                    ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 685 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n                Vs.\n          Tilkesh Soni                                     ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 668 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n               Vs.\n          Antho D&#x27;Souza &amp; Anr.                             ...Respondents",
+    "output": "Based on the petition content: **Respondent Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court Proceedings Summary**",
+    "input": "The Appellant has tendered in tabular form the relevant details.\n</blockquote>\n\n<span class=\"hidden_text\" id=\"span_1\">                                                                                              8/9</span>\n\n\n\n<span class=\"hidden_text\" id=\"span_2\">                   ::: Uploaded on - 31/03/2023                  ::: Downloaded on - 01/04/2023 06:03:35 :::</span>\n<p data-structure=\"RespArg\" id=\"p_2\">                                                                   46-sa-108-2023 +.doc\nPallavi\n\n          The learned Advocates appearing for the Respondents as well as\n\n          Mr. Chandrakant Sutrave, Respondent who appears in person in Second\n\n          Appeal No.897 of 2022 tenders written arguments.\n</p>\n<p data-structure=\"Conclusion\" id=\"p_3\">          2.     Stand over to 26th April 2023 at 2.30 pm for passing orders.",
+    "output": "Based on the petition content: **Court Proceedings Summary**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Advocates Representing Parties**",
+    "input": "",
+    "output": "Based on the petition content: **Advocates Representing Parties**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Judge Information**",
+    "input": "CORAM : MADHAV J. JAMDAR, J.\n</pre><p data-structure=\"Conclusion\" id=\"p_1\">                                                  DATE : 29th MARCH 2023\n\n\n          P.C. :\n</p>\n<blockquote id=\"blockquote_1\">          1.         The Appellant has tendered in tabular form the relevant details.\n</blockquote>\n\n<span class=\"hidden_text\" id=\"span_1\">                                                                                              8/9</span>\n\n\n\n<span class=\"hidden_text\" id=\"span_2\">                   ::: Uploaded on - 31/03/2023                  ::: Downloaded on - 01/04/2023 06:03:35 :::</span>\n<p data-structure=\"RespArg\" id=\"p_2\">                                                                   46-sa-108-2023 +.doc\nPallavi\n\n          The learned Advocates appearing for the Respondents as well as\n\n          Mr. Chandrakant Sutrave, Respondent who appears in person in Second\n\n          Appeal No.897 of 2022 tenders written arguments.\n</p>\n<p data-structure=\"Conclusion\" id=\"p_3\">          2.     Stand over to 26th April 2023 at 2.30 pm for passing orders.\n</p>\n\n\n<p data-structure=\"Precedent\" id=\"p_4\">                                                      [MADHAV J. JAMDAR, J.]",
+    "output": "Based on the petition content: **Judge Information**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Next Hearing Date**",
+    "input": "Stand over to 26th April 2023 at 2.30 pm for passing orders.",
+    "output": "Based on the petition content: **Next Hearing Date**"
+  }
+]

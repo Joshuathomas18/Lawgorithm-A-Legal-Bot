@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "jurisdiction": "DC",
+    "petition_type": "CRIMINAL",
+    "case_id": "mock_002",
+    "collection_date": "2024-02-01T10:00:00"
+  },
+  "structure": {
+    "case_id": "mock_002",
+    "title": "IN THE DISTRICT COURT OF MUMBAI",
+    "court": "District Court of Mumbai",
+    "date": "2024-01-20",
+    "citations": ["2024 DC 456"],
+    "sections": [],
+    "headers": ["FACTS:", "GROUNDS:", "RELIEF:", "PRAYER:"],
+    "legal_phrases": ["IN THE DISTRICT COURT OF", "COMES NOW", "WHEREFORE", "PRAYED FOR", "RESPECTFULLY SUBMITS"]
+  },
+  "content": {
+    "case_id": "mock_002",
+    "facts": "The petitioner was falsely implicated in a case of theft. The police registered FIR without proper investigation. The petitioner has alibi evidence and witnesses to prove innocence.",
+    "grounds": "False implication. Lack of prima facie evidence. Violation of fundamental rights under Article 21. Abuse of process of law.",
+    "relief": "Quashing of FIR and stay on further proceedings.",
+    "arguments": "The petitioner was not present at the scene of crime. CCTV footage and witness statements support the alibi.",
+    "conclusion": "The petitioner is entitled to quashing of the FIR.",
+    "parties": ["Petitioner: John Doe", "Respondent: State of Maharashtra"],
+    "precedents": ["2021 SC 789", "2020 BHC 321"]
+  },
+  "raw_data": {
+    "id": "mock_002",
+    "title": "John Doe vs State of Maharashtra",
+    "content": "IN THE DISTRICT COURT OF MUMBAI\n\nFACTS:\nThe petitioner was falsely implicated...\n\nGROUNDS:\nFalse implication...\n\nRELIEF:\nQuashing of FIR...\n\nPRAYER:\nMay it please the court..."
+  }
+} 

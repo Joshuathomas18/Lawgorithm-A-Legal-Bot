@@ -1,0 +1,48 @@
+{
+  "vector_store_path": "rag/vector_store_lawgorithm/vector_store.json",
+  "models": {
+    "default": "gemini-2.5-flash",
+    "gemini_api_key": "AIzaSyDU7A5_eFsZrtVW20_nVoKFGQ139sRf6IY",
+    "gemini_model": "gemini-2.5-flash",
+    "openai_api_key": "",
+    "openai_model": "gpt-3.5-turbo"
+  },
+  "search": {
+    "top_k": 3,
+    "similarity_threshold": 0.7,
+    "max_context_length": 2000
+  },
+  "generation": {
+    "temperature": 0.7,
+    "top_p": 0.9,
+    "max_tokens": 1000,
+    "timeout": 120
+  },
+  "logging": {
+    "level": "INFO",
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  },
+  "petition": {
+    "default_case_types": [
+      "criminal",
+      "civil", 
+      "family",
+      "constitutional",
+      "environmental",
+      "commercial",
+      "tax",
+      "labor"
+    ],
+    "default_courts": [
+      "Supreme Court",
+      "High Court",
+      "District Court",
+      "Magistrate Court",
+      "Consumer Court",
+      "Family Court",
+      "Labor Court"
+    ],
+    "output_format": "text",
+    "include_metadata": true
+  }
+} 

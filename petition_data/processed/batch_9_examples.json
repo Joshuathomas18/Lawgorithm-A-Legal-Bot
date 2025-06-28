@@ -1,0 +1,172 @@
+[
+  {
+    "instruction": "Answer this question about the petition: **Petition Details**",
+    "input": "Petition ID: 16722531\nTitle: Trupti Ropvatika Cooperative Society ... vs The Chief Conservator Of Forests Thane ... on 6 April, 2023",
+    "output": "Based on the petition content: **Petition Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Parties**",
+    "input": "Syed Wajid Ali Shah Kadri And Ors",
+    "output": "Based on the petition content: **Case Parties**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Consolidated Cases**",
+    "input": "Revenue And Forest Dept. And Ors",
+    "output": "Based on the petition content: **Consolidated Cases**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Issue**",
+    "input": "...PETITIONER\n            V/S\n State Of Maharashtra Thru The Prin. Secretary,\n                                             ....RESPONDENT</pre>\n<p data-structure=\"Facts\" id=\"p_1\"> Revenue And Forest Dept. And Ors",
+    "output": "Based on the petition content: **Case Issue**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Petitioner Facts**",
+    "input": "Revenue And Forest Dept. And Ors",
+    "output": "Based on the petition content: **Petitioner Facts**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Details**",
+    "input": "Steel Garden vs Mumbai Port Authority And 2 Ors on 19 April, 2023\n\nContent:\n<h2 class=\"doc_title\">Steel Garden vs Mumbai Port Authority And 2 Ors on 19 April, 2023</h2>\n\n<h3 class=\"doc_bench\">Bench: <a href=\"/search/?formInput=benchid:g-s-patel\">G.S. Patel</a>, <a href=\"/search/?formInput=benchid:n-k-gokhale\">Neela Kedar</a></h3>\n\n<pre id=\"pre_1\">                                                                  Board Sr.No.:-115\n\n IN THE HIGH COURT OF JUDICATURE AT BOMBAY\n     ORDINARY ORIGINAL CIVIL JURISDICTION\n\n                 WRIT PETITION NO. 357 OF 2023\n\n Shah Ramniklal Tokarshi                      ....PETITIONER\n            V/S\n The Board Of Trustees Of Port Of Bombay (now\n                                           ....RESPONDENT</pre>\n<p data-structure=\"Issue\" id=\"p_1\"> Known As Mumbai Port Authority) And 2 Ors.\n</p>\n<p data-structure=\"Facts\" id=\"p_2\">                            WITH\n                WRIT PETITION NO. 3608 OF 2022\n\n H And Lr Khanbhai Alibhai Charania          ....PETITIONER\n            V/S\n The Board Of Trustees Of The Port Of Bombay\n                                          ....RESPONDENT\n And 2 Ors\n\n                            WITH\n                WRIT PETITION NO. 3747 OF 2022\n\n K. S. Ramachandran                          ....PETITIONER\n            V/S\n The Board Of Trustees Of The Port Of Bombay\n                                          ....RESPONDENT\n And Anr\n\n                            WITH\n                WRIT PETITION NO. 4099 OF 2022\n\n Rajen Chhotalal Jani                        ....PETITIONER\n            V/S\n The Board Of Trustees Of The Port Of Bombay\n                                          ....RESPONDENT\n And 2 Ors\n\n\n<span class=\"hidden_text\" id=\"span_1\">                                                                         Page 1/13</span>\n\n<span class=\"hidden_text\" id=\"span_2\">::: Uploaded on - 21/04/2023            ::: Downloaded on - 22/04/2023 06:34:27 :::",
+    "output": "Based on the petition content: **Case Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Petitioners and Respondents**",
+    "input": "Shah Ramniklal Tokarshi                      ....PETITIONER\n            V/S\n The Board Of Trustees Of Port Of Bombay (now\n                                           ....RESPONDENT</pre>\n<p data-structure=\"Issue\" id=\"p_1\"> Known As Mumbai Port Authority) And 2 Ors.",
+    "output": "Based on the petition content: **Petitioners and Respondents**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Multiple Petitions Consolidated**",
+    "input": "Known As Mumbai Port Authority) And 2 Ors.",
+    "output": "Based on the petition content: **Multiple Petitions Consolidated**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Additional Petitioners and Respondents**",
+    "input": "The Board Of Trustees Of Port Of Bombay (now\n                                           ....RESPONDENT</pre>\n<p data-structure=\"Issue\" id=\"p_1\"> Known As Mumbai Port Authority) And 2 Ors.",
+    "output": "Based on the petition content: **Additional Petitioners and Respondents**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court Order - Adjournment**",
+    "input": "Balance Daily Board cannot be taken up today on account of\n     paucity of time. Stand over to 22/06/2023 . Ad-interim relief or\n     interim relief, if any, granted earlier will continue to operate till\n     next date.",
+    "output": "Based on the petition content: **Court Order - Adjournment**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Appellant Details**",
+    "input": "M/s Man Global Ltd. Mumbai                        ...Appellant\n                 Vs.\n          Mr. Jitendra Jain                                 ...Respondent",
+    "output": "Based on the petition content: **Appellant Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent Details**",
+    "input": "Mr. Jitendra Jain                                 ...Respondent\n                                              WITH\n                                  SECOND APPEAL NO. 155 OF 2023\n                                              WITH\n                               INTERIM APPLICATION NO. 1728 OF 2023\n\n          Man Global Ltd.                                   ...Appellant\n                 Vs.\n          Dr. Alok Chaturvedi                              ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 667 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n               Vs.\n          Azam Wahid Qureshi                                ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 696 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n               Vs.\n          Meenal Parabh                                     ...Respondent\n                                                WITH\n                                     SECOND APPEAL NO.453 OF 2022\n\n          M/s Man Global Ltd. Mumbai                        ...Appellant\n                Vs.\n          Nikhil K. Kathane                                 ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 660 OF 2022\n\n\n                                                                                        1/9\n\n\n\n              ::: Uploaded on - 31/03/2023                 ::: Downloaded on - 01/04/2023 06:04:21 :::\n                                                                 46-sa-108-2023 +.doc\nPallavi\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n                Vs.\n          Jitendra Jain                                    ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 685 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n                Vs.\n          Tilkesh Soni                                     ...Respondent\n                                               WITH\n                                    SECOND APPEAL NO. 668 OF 2022\n\n          M/s Man Global Ltd. Mumbai                       ...Appellant\n               Vs.\n          Antho D&#x27;Souza &amp; Anr.                             ...Respondents",
+    "output": "Based on the petition content: **Respondent Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Multiple Cases Consolidated**",
+    "input": "SA/108/2023 with IA/ST/4038/2023 in SA/108/2023 with SA/155/2023 with\n          IA/1728/2023 in SA/155/2023 with SA/667/2022 with SA/696/2022 with\n          SA/453/2022 with SA/660/2022 with SA/685/2022 with SA/668/2022 with\n          SA/897/2022 with SA/857/2022 with SA/504/2022 with SA/882/2022 with\n          SA/933/2022 with SA/675/2022 with SA/455/2022 with SA/880/2022 with\n          SA/669/2022 with SA/454/2022 with SA/918/2022 with SA/692/2022 with\n          SA/114/2023 with IA/ST/3928/2023 in SA/114/2023 with SA/109/2023 with\n\n\n                                                                                     7/9\n\n\n\n              ::: Uploaded on - 31/03/2023              ::: Downloaded on - 01/04/2023 06:04:21 :::\n                                                                        46-sa-108-2023 +.doc\nPallavi\n\n          IA/ST/4043/2023 in SA/109/2023 with SA/138/2023 with IA/ST/4012/2023 in\n          SA/138/2023 with SA/113/2023 with IA/ST/3926/2023 in SA/113/2023 with\n          IA/4009/2023 in SA/113/2023 with SA/123/2023 with IA/ST/4216/2023 in\n          SA/123/2023 with SA/119/2023 with IA/ST/4015/2023 in SA/119/2023 with SA/\n          110/2023 with IA/ST/4010/2023 in SA/110/2023 with SA/121/2023 with IA/ST/\n          4017/2023 in SA/121/2023 with SA/117/2023 with SA/112/2023 with\n          IA/ST/4020/2023 in SA/112/2023 with SA/118/2023 with IA/ST/4021/2023 in\n          SA/118/2023 with IA/ST/4219/2023 in SA/118/2023 with SA/120/2023 with\n          IA/ST/4037/2023 in SA/120/2023 with SA/115/2023 with IA/ST/4041/2023 in\n          SA/115/2023 with SA/122/2023 with IA/ST/4026/2023 in SA/122/2023 with SA/\n          116/2023 with       IA/ST/4222/2023 in SA/116/2023 SA/111/2023 with\n          IA/ST/4049/2023 in SA/111/2023.",
+    "output": "Based on the petition content: **Multiple Cases Consolidated**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Legal Representation**",
+    "input": "",
+    "output": "Based on the petition content: **Legal Representation**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Appellant's Action**",
+    "input": "The Appellant has tendered in tabular form the relevant details.",
+    "output": "Based on the petition content: **Appellant's Action**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Respondent's Action**",
+    "input": "The learned Advocates appearing for the Respondents as well as\n\n          Mr. Chandrakant Sutrave, Respondent who appears in person in Second\n\n          Appeal No.897 of 2022 tenders written arguments.",
+    "output": "Based on the petition content: **Respondent's Action**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court Order**",
+    "input": "Stand over to 26th April 2023 at 2.30 pm for passing orders.",
+    "output": "Based on the petition content: **Court Order**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Judge**",
+    "input": "[MADHAV J. JAMDAR, J.]",
+    "output": "Based on the petition content: **Judge**"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Details",
+    "input": "M/S. Biovet Private Limited vs The Collector, Pune And Ors on 6 April, 2023",
+    "output": "Based on the petition content: Case Details"
+  },
+  {
+    "instruction": "Answer this question about the petition: Petitioners Involved",
+    "input": "Syed Wajid Ali Shah Kadri And Ors              ....PETITIONER\n            V/S\n State Of Maharashtra Thru The Prin. Secretary,\n                                             ....RESPONDENT</pre>\n<p data-structure=\"Facts\" id=\"p_1\"> Revenue And Forest Dept. And Ors\n\n                            WITH\n               WRIT PETITION NO. 12231 OF 2018\n\n Trimbak Laxman Joshi, Through P.a. Holder ....PETITIONER\n Santosh T Joshi\n             V/S\n The State Of Maharahstra And Ors.",
+    "output": "Based on the petition content: Petitioners Involved"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondents Involved",
+    "input": "State Of Maharashtra Thru The Prin. Secretary,\n                                             ....RESPONDENT</pre>\n<p data-structure=\"Facts\" id=\"p_1\"> Revenue And Forest Dept. And Ors",
+    "output": "Based on the petition content: Respondents Involved"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Issue (appears to be implicitly stated through listing of cases)",
+    "input": "M/s Dattani Estate Through Its Partners And Ors.\n</p><p data-structure=\"Issue\" id=\"p_3\">                                                <span class=\"citetext\" data-sentiment=\"Pos\" data-docid=\"107063640\" id=\"span_3\">...<a href=\"/doc/107063640/\" id=\"a_1\">.PETITIONER\n             V/S\n State Of Maharashtra Through Secretary      ....RESPONDENT\n Revenue And Forest Dept. And Ors</a>.</span>\n</p>\n<p data-structure=\"RespArg\" id=\"p_4\">                            WITH\n                WRIT PETITION NO. 7270 OF 2018\n\n Premal Harkishon Udani                        ....PETITIONER\n            V/S\n State Of Maharashtra And Ors.               ....RESPONDENT\n\n                            WITH\n               WRIT PETITION NO. 12455 OF 2016\n\n Dilipkumar Vinayachand Kothari               ....PETITIONER\n            V/S\n State Of Maharashtra Through Secretary And....RESPONDENT\n Ors\n\n                           WITH\n                                         ....RESPONDENT\n              REVIEW PETN. IN WP NO. 3 OF 2020\n\n\n<span class=\"hidden_text\" id=\"span_4\">                                                                           Page 2/34</span>\n\n<span class=\"hidden_text\" id=\"span_5\">::: Uploaded on - 10/04/2023              ::: Downloaded on - 10/04/2023 23:20:24 :::</span>\n                                     In\n                      Writ Petition 14147 OF 2016\n\n Mr. Anil Shah And Anr.                             ....PETITIONER\n             V/S\n State Of Maharashtra Through Secretary,         ....RESPONDENT\n Revenue And Forest Dept. And Ors.",
+    "output": "Based on the petition content: Case Issue (appears to be implicitly stated through listing of cases)"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Facts (repeated throughout the document with slight variations)",
+    "input": "Revenue And Forest Dept. And Ors",
+    "output": "Based on the petition content: Case Facts (repeated throughout the document with slight variations)"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Discussion (appears to be implicitly stated through listing of cases)",
+    "input": "1) WP/3120/2018 2) 2817/18 3) 5805/19 4) 7595/2019 5)\n 5784/2019 6) 9756/2016 7) 10334/2016 8) 5802/19 9)\n WP(ST)/22378/2017 10) WP(ST)/22383/17 11) WP/2375/2017\n</p><p data-structure=\"Conclusion\" id=\"p_52\"> 12) 9467/17\n</p><p data-structure=\"Conclusion\" id=\"p_53\"> 13) 11487/15, 14) 29/20 15) 6963/18 16) 12667/18 17)\n 11903/18 18) 8410/15 19) 1946/16",
+    "output": "Based on the petition content: Case Discussion (appears to be implicitly stated through listing of cases)"
+  },
+  {
+    "instruction": "Answer this question about the petition: Petitioner Arguments",
+    "input": "S. O. to 28/04/2023 (",
+    "output": "Based on the petition content: Petitioner Arguments"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Summary",
+    "input": "In this batch of Writ Petitions, certain notifications issued by\n\n       the State of Punjab are challenged.\n</p>\n<p data-structure=\"Precedent\" id=\"p_2\">  I.   Notifications No.7/204/2012-4FP1/60 dt.15.01.2015, GSR.3/Const/Article\n       309/AMD.(5)/2015         dt.22.12.2015        and   GSR.56/Const./         Art.309/\n       AMD.(18)/2016 dt. 05.09.2016 are challenged in following Writ\n       Petitions:\n</p>\n<blockquote id=\"blockquote_1\">                    CWPs- 6232, 16115, 17064, 17673, 19162, 19909, 19910, 22484,\n\n       23206, 25019, 27410 of 2017; CWPs- 1106, 1681, 1696, 1713, 1728, 1729, 3244,\n\n       3332, 5354, 29351, 29355, 31003, 31010, 31105, 3862, 25727, 25889, 25940,\n\n       6045, 31137, 6888, 7958, 26033 of 2018; CWPs- 35680, 33303, 35332, 4573,\n\n       8755, 12522 of 2019; CWPs- 6404, 13197, 11187, 5432, 20795, 18232, 22025,\n\n       22232 of 2020; CWP- 10597-2021; and CWPs- 25984, 26291, 10346, 18118 of\n\n       2022.\n</blockquote>\n<blockquote id=\"blockquote_2\"> II.   Only Notification No.7/204/2012-4FP1/60 dt.15.01.2015 and GSR.56/Const./\n       Art.309/ AMD.(18)/2016 dt.05.09.2016 are challenged in following Writ\n       Petitions:\n</blockquote><blockquote id=\"blockquote_3\">                    CWPs- 3352, 3353, 3061, 3052, 3354, 3579, 26014, 23710, 25919,\n\n       6584, 5877 of 2018; CWPs- 4964, 31727, 23213 of 2019; CWPs- 20682, 20515\n\n       of 2020;CWP- 4542 of 2021; and CWP- 11771 of 2022.\n</blockquote>\n<blockquote id=\"blockquote_4\">III.   Only Notification No.7/204/2012-4FP1/60 dt.15.01.2015 is challenged in\n       following Writ Petitions:\n</blockquote>\n<blockquote id=\"blockquote_5\">                    CWPs- 15869, 7834 of 2017; CWPs- 29461, 6735, 30891, 16779,\n\n       28972, 31040, 30924, 31056 of 2018; CWPs- 7966, 36464 of 2019; and CWPs-\n</blockquote>\n<blockquote id=\"blockquote_6\">       5399, 11260 of 2022.\n</blockquote>\n\n<blockquote id=\"blockquote_7\">                                          18 of 36\n<span class=\"hidden_text\" id=\"span_1\">                       ::: Downloaded on - 31-05-2023 02:54:12 :::</span>\n                                                               Neutral Citation No:=2023:PHHC:029128-DB\n\n\n\n      CWP-17064-2017 and connected matters\n\n<span class=\"hidden_text\" id=\"span_2\">                                           Page 19 of 36</span>\n\n\nIV.   Only      Notifications       No.7/204/2012-4FP1/60            dt.15.01.2015        and\n      GSR.3/Const/Article 309/AMD.(5)/2015 dt. 22.12.2015 are challenged in\n      following Writ Petitions:\n</blockquote>\n<blockquote id=\"blockquote_8\">                    CWPs-13922, 24420 of 2017; CWPs- 2476, 3466, 4146, 6443,\n\n      28204 of 2018; CWPs- 6062, 11788, 34747, 35879, 19967, 15642, 20755, 33835\n\n      of 2019; CWP-16813-2020; and CWP-12100-2022.\n</blockquote>\n<blockquote id=\"blockquote_9\">                    The petitioners in all these Writ Petitions are persons employed in\n\n      various departments of the State Government or working in aided posts in private\n\n      schools in the State of Punjab.",
+    "output": "Based on the petition content: Case Summary"
+  },
+  {
+    "instruction": "Answer this question about the petition: Challenged Notifications I",
+    "input": "I.   Notifications No.7/204/2012-4FP1/60 dt.15.01.2015, GSR.3/Const/Article\n       309/AMD.(5)/2015         dt.22.12.2015        and   GSR.56/Const./         Art.309/\n       AMD.(18)/2016 dt. 05.09.2016 are challenged in following Writ\n       Petitions:",
+    "output": "Based on the petition content: Challenged Notifications I"
+  },
+  {
+    "instruction": "Answer this question about the petition: Challenged Notifications II",
+    "input": "",
+    "output": "Based on the petition content: Challenged Notifications II"
+  },
+  {
+    "instruction": "Answer this question about the petition: Challenged Notifications III",
+    "input": "",
+    "output": "Based on the petition content: Challenged Notifications III"
+  },
+  {
+    "instruction": "Answer this question about the petition: Petitioner Description",
+    "input": "The petitioners in all these Writ Petitions are persons employed in\n\n      various departments of the State Government or working in aided posts in private\n\n      schools in the State of Punjab.",
+    "output": "Based on the petition content: Petitioner Description"
+  },
+  {
+    "instruction": "Answer this question about the petition: Background Facts",
+    "input": "The background facts are as under:",
+    "output": "Based on the petition content: Background Facts"
+  },
+  {
+    "instruction": "Answer this question about the petition: Notification 15.01.2015 and Clarification",
+    "input": "Notification No.7/204/2012-4FP1/60 dt.15.01.2015 and GSR.56/Const./\n       Art.309/ AMD.(18)/2016 dt.05.09.2016 are challenged in following Writ\n       Petitions:\n</blockquote><blockquote id=\"blockquote_3\">                    CWPs- 3352, 3353, 3061, 3052, 3354, 3579, 26014, 23710, 25919,\n\n       6584, 5877 of 2018; CWPs- 4964, 31727, 23213 of 2019; CWPs- 20682, 20515\n\n       of 2020;CWP- 4542 of 2021; and CWP- 11771 of 2022.\n</blockquote>\n<blockquote id=\"blockquote_4\">III.   Only Notification No.7/204/2012-4FP1/60 dt.15.01.2015 is challenged in\n       following Writ Petitions:\n</blockquote>\n<blockquote id=\"blockquote_5\">                    CWPs- 15869, 7834 of 2017; CWPs- 29461, 6735, 30891, 16779,\n\n       28972, 31040, 30924, 31056 of 2018; CWPs- 7966, 36464 of 2019; and CWPs-\n</blockquote>\n<blockquote id=\"blockquote_6\">       5399, 11260 of 2022.\n</blockquote>\n\n<blockquote id=\"blockquote_7\">                                          18 of 36\n<span class=\"hidden_text\" id=\"span_1\">                       ::: Downloaded on - 31-05-2023 02:54:12 :::</span>\n                                                               Neutral Citation No:=2023:PHHC:029128-DB\n\n\n\n      CWP-17064-2017 and connected matters\n\n<span class=\"hidden_text\" id=\"span_2\">                                           Page 19 of 36</span>\n\n\nIV.   Only      Notifications       No.7/204/2012-4FP1/60            dt.15.01.2015        and\n      GSR.3/Const/Article 309/AMD.(5)/2015 dt. 22.12.2015 are challenged in\n      following Writ Petitions:\n</blockquote>\n<blockquote id=\"blockquote_8\">                    CWPs-13922, 24420 of 2017; CWPs- 2476, 3466, 4146, 6443,\n\n      28204 of 2018; CWPs- 6062, 11788, 34747, 35879, 19967, 15642, 20755, 33835\n\n      of 2019; CWP-16813-2020; and CWP-12100-2022.\n</blockquote>\n<blockquote id=\"blockquote_9\">                    The petitioners in all these Writ Petitions are persons employed in\n\n      various departments of the State Government or working in aided posts in private\n\n      schools in the State of Punjab.\n</blockquote>\n<blockquote id=\"blockquote_10\">      The background facts are as under:\n</blockquote>\n<blockquote id=\"blockquote_11\">      Notification No.7/204/2012-4FP1/60 dt.15.01.2015 and clarification No.7/204/2012-\n      4FP.1/166 dt.15.01.2015\n\n                    The notification dt.15.01.2015 amended the Punjab Civil\n\n      Services (Second Amendment) Rules, Volume I, Part I, 2015 and added\n\n      Rule 2.20-A and substituted in Rule 4.1 thereof, for sub Rule (1). They are\n\n      as under: -\n</blockquote>\n<blockquote id=\"blockquote_12\">             &quot;Rule 2.20-A:\n</blockquote><blockquote id=\"blockquote_13\">             Fixed Monthly Emoluments&#x27; means the emoluments, drawn by a\n             Government employee, but the said emoluments shall not include any\n             Grade Pay, annual increment or any other allowance, except the\n             travelling allowance as per entitlement of the post held by such\n             employee;\n</blockquote><blockquote id=\"blockquote_14\">                    New Sub Rule (1) substituted in Rule 4.1:\n</blockquote><blockquote id=\"blockquote_15\">             &quot;(1) Subject to the rules contained in this Chapter, a competent authority may\n             fix the pay of a Government employee, but his pay shall not be so increased as\n             to exceed the pay sanctioned for his post without the sanction of the authority\n             competent to create a post in the same cadre on a rate of pay equal to his pay\n             when increased:\n</blockquote><blockquote id=\"blockquote_16\">                    Provided that the Government employee [except a member of service of\n             the Punjab Civil Services (Judicial Branch) and the employees covered under\n             Clause (a) of Rule 4.4], shall be entitled to receive the emoluments, as\n             specified in Rule 2.20A, during the period of his probation.\n</blockquote>\n\n\n\n<blockquote id=\"blockquote_17\">                                           19 of 36\n<span class=\"hidden_text\" id=\"span_3\">                       ::: Downloaded on - 31-05-2023 02:54:12 :::</span>\n                                                      Neutral Citation No:=2023:PHHC:029128-DB\n\n\n\nCWP-17064-2017 and connected matters\n\n<span class=\"hidden_text\" id=\"span_4\">                                    Page 20 of 36</span>\n\n\n             Provided further that if a Government employee falling under Clause\n</blockquote><blockquote id=\"blockquote_18\">      (a) of Rule 4.4, is appointed to a post, his pay during the period of his\n      probation, shall not exceed the pay, which he was drawing on the post on\n      which he holds lien;\n</blockquote><p data-structure=\"CDiscource\" id=\"p_3\">      Provided further that when the services of a Government employee, are\n      regularized, in that case the period spent on probation by him, shall not be\n      treated to be the time, spent on such post.&quot;",
+    "output": "Based on the petition content: Notification 15.01.2015 and Clarification"
+  },
+  {
+    "instruction": "Answer this question about the petition: Interpretation of Notifications",
+    "input": "",
+    "output": "Based on the petition content: Interpretation of Notifications"
+  },
+  {
+    "instruction": "Answer this question about the petition: Clarificatory Note Summary",
+    "input": "(f)   The validity of the notification No. GSR.56/Const./Art.309/\n\n              AMD.(18)/2016 dt.05.09.2016 issued by the State of Punjab is\n\n              left open for consideration in an appropriate case.",
+    "output": "Based on the petition content: Clarificatory Note Summary"
+  }
+]

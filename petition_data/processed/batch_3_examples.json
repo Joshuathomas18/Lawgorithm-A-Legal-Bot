@@ -1,0 +1,142 @@
+[
+  {
+    "instruction": "Answer this question about the petition: **Case Details**",
+    "input": "IN THE HIGH COURT OF JUDICATURE AT BOMBAY\n      APPELLATE SIDE CIVIL JURISDICTION\n\n               WRIT PETITION NO. 10293 OF 2019\n\n Pralhad Pandurang Nevase And Ors           ....PETITIONER\n             V/S\n State Of Maharashtra And Ors             ....RESPONDENT</pre>\n\n<p data-structure=\"RespArg\" id=\"p_1\">                         <span class=\"citetext\" data-sentiment=\"PARTY\" data-docid=\"140642002\" id=\"span_1\">WITH\n         WRIT PETITION STAMP NO. 24076 OF 2019\n\n Sudam Maruti Gaikwad                       ....PETITIONER\n            V/S\n State Of Maharashtra And Ors             ....RESPONDENT\n\n                         WITH\n         WRIT PETITION STAMP NO. 24136 OF 2019\n\n Balaso Babanrao Gaware And Ors             ....PETITIONER\n            V/S\n State Of Maharashtra And Ors             ....RESPONDENT\n\n                         WITH\n         WRIT PETITION STAMP NO. 24047 OF 2019\n\n Satyawan Haribhau Chahyal And Anr          ....PETITIONER\n            V/S\n State Of Maharashtra And Ors             ....RESPONDENT\n\n                         WITH\n         WRIT PETITION STAMP NO. 24048 OF 2019\n\n\n\n\n<span class=\"hidden_text\" id=\"span_2\">                                                                        Page 1/4</span>\n\n<span class=\"hidden_text\" id=\"span_3\">::: Uploaded on - 18/07/2023           ::: Downloaded on - 19/07/2023 01:50:14 :::</span>\n  Bhaiyaso Patilbuwa Mandhare             ....PETITIONER\n            V/S\n State Of Maharashtra And Ors          ....RESPONDENT\n\n                         WITH\n         WRIT PETITION STAMP NO. 24050 OF 2019\n\n Dilip Baburao Kothawale Aand Ors        ....PETITIONER\n             V/S\n State Of Maharashtra And Ors          ....RESPONDENT\n\n                         WITH\n         WRIT PETITION STAMP NO. 24051 OF 2019\n\n Rajaram Dnyanob Deshmukh And Nar        ....PETITIONER\n            V/S\n State Of Maharashtra And Ors          ....RESPONDENT\n\n                         WITH\n         WRIT PETITION STAMP NO. 24055 OF 2019\n\n Popat Jagannath Gaikwad And Ors         ....PETITIONER\n             V/S\n State Of Maharashtra And Ors          ....RESPONDENT\n\n                         WITH\n         WRIT PETITION STAMP NO. 24058 OF 2019\n\n Ankush Gulabrao Wable And Ors           ....PETITIONER\n            V/S\n State Of Maharashtra And Ors          ....RESPONDENT\n\n                         WITH\n         WRIT PETITION STAMP NO. 24120 OF 2019\n\n\n\n<span class=\"hidden_text\" id=\"span_4\">                                                                     Page 2/4</span>\n\n<span class=\"hidden_text\" id=\"span_5\">::: Uploaded on - 18/07/2023        ::: Downloaded on - 19/07/2023 01:50:14 :::</span>\n  Narendra Bhauso Gaikwad And Ors               ....PETITIONER\n            V/S\n State Of Maharashtra And Ors                ....RESPONDENT\n\n                         WITH\n         WRIT PETITION STAMP NO. 24364 OF 2019\n\n Ganpat Jaywant Gawade And Ors                 ....PETITIONER\n            V/S\n State Of Maharashtra And Ors                ....RESPONDENT\n\n                         WITH\n         WRIT PETITION STAMP NO. 24365 OF 2019\n\n Ramchandra Namdeo Bhujbal Adn Anr             ....PETITIONER\n            V/S\n State Of Maharashtra And Ors                ....RESPONDENT\n\n                            WITH\n          INTERIM APPLICATION NO. 3918 OF 2019\n                              In\n                <a href=\"/doc/140642002/\" id=\"a_1\">Writ Petition 10293 OF 2019\n\n Kailash Haribhau Shivale                      ....PETITIONER\n              V/S\n Shri. Pralhad Pandurang Nevase And Ors</a>      ....RESPONDENT\n\n                            WITH\n          INTERIM APPLICATION NO. 2790 OF 2020\n                              In\n                Writ Petition 10293 OF 2019\n\n Shri. Jayaram Shripati Devdare                ....PETITIONER\n              V/S\n Shri. Pralhad Pandurang Nevase And Ors      ....RESPONDENT\n\n\n<span class=\"hidden_text\" id=\"span_6\">                                                                           Page 3/4</span>\n\n<span class=\"hidden_text\" id=\"span_7\">::: Uploaded on - 18/07/2023              ::: Downloaded on - 19/07/2023 01:50:14 :::</span>\n  Mr.Vilas B Tapkir for Petitioner in WP/10293/2019.",
+    "output": "Based on the petition content: **Case Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Petitioners and Respondents**",
+    "input": "Pralhad Pandurang Nevase And Ors on 17 July, 2023\n\nContent:\n<h2 class=\"doc_title\">Kailash Haribhau Shivale vs Shri. Pralhad Pandurang Nevase And Ors on 17 July, 2023</h2>\n\n<h3 class=\"doc_bench\">Bench: <a href=\"/search/?formInput=benchid:b-p-colabawalla\">B.P. Colabawalla</a>, <a href=\"/search/?formInput=benchid:m-m-sathaye\">M. M. Sathaye</a></h3>\n\n<pre id=\"pre_1\">                                                                   Board Sr.No.:-10\n\n IN THE HIGH COURT OF JUDICATURE AT BOMBAY\n      APPELLATE SIDE CIVIL JURISDICTION\n\n               WRIT PETITION NO. 10293 OF 2019\n\n Pralhad Pandurang Nevase And Ors           ....PETITIONER\n             V/S\n State Of Maharashtra And Ors             ....RESPONDENT",
+    "output": "Based on the petition content: **Petitioners and Respondents**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Interim Applications**",
+    "input": "S. O. to 26/07/2023 .",
+    "output": "Based on the petition content: **Interim Applications**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Details**",
+    "input": "",
+    "output": "Based on the petition content: **Case Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Petitioners and Respondents**",
+    "input": "Syed Wajid Ali Shah Kadri and Ors.                               ....Petitioners\n      V/s.\nThe State of Maharashtra,\nThrough Principal Secretary,\nRevenue and Forest Department\nand Ors.                                                         ...Respondents",
+    "output": "Based on the petition content: **Petitioners and Respondents**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Additional Case**",
+    "input": "",
+    "output": "Based on the petition content: **Additional Case**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Legal Representation**",
+    "input": "(RAJESH S. PATIL, J.)                                     (K.R. SHRIRAM, J.)",
+    "output": "Based on the petition content: **Legal Representation**"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Overview",
+    "input": "The petitioners-State has assailed the award passed by\n\nthe Court of learned Labour Court Court-cum-Industrial Tribunal,\n\nKangra at Dharamshala in reference No.74 of 2014, titled as Desh Raj\n\nvs. The D.F.O Division, Bilaspur, dated 21.07.2015, in terms whereof,\n<span class=\"hidden_text\" id=\"span_1\">1</span>\n            Whether reporters of Local Papers may be allowed to see the judgment?\n</p>\n\n\n\n<span class=\"hidden_text\" id=\"span_2\">                                                      ::: Downloaded on - 13/04/2023 20:32:38 :::CIS</span>\n<span class=\"hidden_text\" id=\"span_3\">                                    2</span>\n\n<p data-structure=\"CDiscource\" id=\"p_2\">the reference made to the Labour Court by the Appropriate\n\nGovernment with regard to termination of the services of the workman\n\nwas answered by the learned Labour Court, by directing the State to\n\n\n\n\n                                                              .\n</p>\n<p data-structure=\"Issue\" id=\"p_3\">re-engage the petitioner with seniority and continuity in service from\n\nthe date of his illegal termination, except back wages.\n</p>\n\n\n\n\n<p data-structure=\"Facts\" id=\"p_4\">2.          Brief facts necessary for the adjudication of the present\n\npetition are that an industrial dispute was raised by the respondent-\n</p>\n\n\n\n\n<p data-structure=\"CDiscource\" id=\"p_5\">workman (hereinafter referred to as the workman for convenience)\n\nwith regard to his illegal termination by the respondent-Department in\n\nthe month of November, 1999, in violation of the provisions of <a href=\"/doc/1056316/\" id=\"a_1\">Section\n\n25-F</a> of the Industrial Disputes Act by stating that he was engaged as\n\na daily wage Beldar in the year 1991 at Kalor Forest Division and he\n\n\n\nremained employed till 1999, when his services were verbally\n\n\n\n\nterminated from the month of November, 1999, though he had\n\n\n\n\n\ncompleted more than 240 days in the preceding 12 months and\n\nservices of several other workmen junior to him were retained and\n\n\n\n\n\nwho were subsequently regularized.       On the Industrial Dispute so\n\nraised, the following reference was made by the Appropriate\n\nGovernment for adjudication to the learned Labour Court.\n</p>\n<blockquote id=\"blockquote_1\">                    &quot;Whether termination of the services of Sh. Desh\n                    Raj s/o Sh. Anant Ram, R/O Village &amp; PO kosrian,\n                    Tehsil Jhandutta, Distt, Bilaspur, H.P. by the\n                    Divisional Forest Officer, Bilaspur Division, H.P.\n\n\n\n\n<span class=\"hidden_text\" id=\"span_4\">                                             ::: Downloaded on - 13/04/2023 20:32:38 :::CIS</span>\n<span class=\"hidden_text\" id=\"span_5\">                                  3</span>\n\n                   during November, 1999 without following the\n                   provisions of the <a href=\"/doc/500379/\" id=\"a_2\">Industrial Disputes Act, 1947</a> is\n                   legal and justified? If not, what benefits, including\n                   reinstatement, amount of back wages, salary\n                   seniority, past service benefits and compensation\n\n\n\n\n                                                            .\n</blockquote><blockquote id=\"blockquote_2\">                   the above worker is entitled to from the above\n\n\n\n\n\n                   employers?\n</blockquote>\n<p data-structure=\"RespArg\" id=\"p_6\">3.         On the basis of the statement of claim filed by the\n\n\n\n\n\nworkman as also reply filed thereto by the Department, the following\n\nissues were framed by the learned Labour Court.\n</p>\n\n\n\n\n<p data-structure=\"Issue\" id=\"p_7\">                  1.Whether the termination of the services of the\n                  petitioner by the respondent in the month of\n                  November, 1999 is illegal and unjustified as\n                  alleged? OPP\n\n\n</p><p data-structure=\"Issue\" id=\"p_8\">                  2.Whether the claim petition is not maintainable in\n                  the present form? OPR\n\n</p><p data-structure=\"Issue\" id=\"p_9\">                  3.Whether the petition is hit by vice of delay and\n\n\n                  laches as alleged, if so, its effect? OPR\n\n</p><p data-structure=\"PetArg\" id=\"p_10\">                  4. Relief.\n</p>\n\n\n\n<p data-structure=\"Issue\" id=\"p_11\">4.         The issues were decided by the learned Labour Court as\n\n\n\n\n\nunder:-\n</p>\n\n\n\n\n<pre id=\"pre_2\">                Issue No. 1:      Yes.\n\n                Issue No. 2:      No.\n\n                Issue No. 3:      No.\n\n                Relief:           Petition is allowed per operative\n                                  part of the Award.",
+    "output": "Based on the petition content: Case Overview"
+  },
+  {
+    "instruction": "Answer this question about the petition: Case Facts",
+    "input": "",
+    "output": "Based on the petition content: Case Facts"
+  },
+  {
+    "instruction": "Answer this question about the petition: Labour Court Issues",
+    "input": "On the basis of the statement of claim filed by the\n\n\n\n\n\nworkman as also reply filed thereto by the Department, the following\n\nissues were framed by the learned Labour Court.\n</p>\n\n\n\n\n<p data-structure=\"Issue\" id=\"p_7\">                  1.Whether the termination of the services of the\n                  petitioner by the respondent in the month of\n                  November, 1999 is illegal and unjustified as\n                  alleged? OPP\n\n\n</p><p data-structure=\"Issue\" id=\"p_8\">                  2.Whether the claim petition is not maintainable in\n                  the present form? OPR\n\n</p><p data-structure=\"Issue\" id=\"p_9\">                  3.Whether the petition is hit by vice of delay and\n\n\n                  laches as alleged, if so, its effect? OPR\n\n</p><p data-structure=\"PetArg\" id=\"p_10\">                  4. Relief.\n</p>\n\n\n\n<p data-structure=\"Issue\" id=\"p_11\">4.         The issues were decided by the learned Labour Court as\n\n\n\n\n\nunder:-\n</p>\n\n\n\n\n<pre id=\"pre_2\">                Issue No. 1:      Yes.\n\n                Issue No. 2:      No.\n\n                Issue No. 3:      No.\n\n                Relief:           Petition is allowed per operative\n                                  part of the Award.",
+    "output": "Based on the petition content: Labour Court Issues"
+  },
+  {
+    "instruction": "Answer this question about the petition: Labour Court Findings",
+    "input": "Learned Labour Court held that the services of the\n\npetitioner were orally terminated on 01.11.1999 and he had worked for\n\nmore than 248 days in said year itself. Learned Labour Court further\n\n\n\n\n                                                             .\n</p>\n<p data-structure=\"Precedent\" id=\"p_13\">held that whereas the plea of the department was that the workman\n\nhimself had abandoned the job as he did not report for duty w.e.f.\n</p>\n\n\n\n\n<p data-structure=\"Precedent\" id=\"p_14\">01.11.1999, but there was nothing on record from which it could be\n\ninferred that there was abandonment of the job by the workman as this\n\n\n\n\n\nfact could not be proved by the department. Learned Labour Court\n\nheld that the plea of abandonment has to be proved like any other fact\n\nsince abandonment or absence from duties is a serious misconduct\n\nand it was therefore essential for the department to have had issued\n\nnotice to the workmen to join and in default to have had initiated\n\n\n\ndepartment proceedings and in the absence of any of these acts\n\n\n\n\nhaving been done by the department, it could not be construed that\n\n\n\n\n\nthe workman had abandonment the job. Learned Labour Court also\n\nheld in para 12 of the award that as it was proved from the record that\n\n\n\n\n\nthe department had engaged and retained persons junior to the\n\nworkman, therefore, there was violation of <a href=\"/doc/607947/\" id=\"a_3\">Section 25(G)</a> of the\n\nIndustrial Disputes Act.   Learned Court also held that as it stood\n\nproved that in the year 1999, the workman had worked for more than\n\n240 days and even in the year 1998, he had worked for 248 days, the\n\n\n\n\n<span class=\"hidden_text\" id=\"span_8\">                                            ::: Downloaded on - 13/04/2023 20:32:38 :::CIS</span>\n<span class=\"hidden_text\" id=\"span_9\">                                    5</span>\n\ntermination of the workman was obviously in violation of the provisions\n\nof <a href=\"/doc/607947/\" id=\"a_4\">Section 25(F)</a> of the Industrial Disputes Act.",
+    "output": "Based on the petition content: Labour Court Findings"
+  },
+  {
+    "instruction": "Answer this question about the petition: Respondent's Arguments",
+    "input": "",
+    "output": "Based on the petition content: Respondent's Arguments"
+  },
+  {
+    "instruction": "Answer this question about the petition: State's Arguments",
+    "input": "",
+    "output": "Based on the petition content: State's Arguments"
+  },
+  {
+    "instruction": "Answer this question about the petition: Judge's Analysis of Abandonment Claim",
+    "input": "",
+    "output": "Based on the petition content: Judge's Analysis of Abandonment Claim"
+  },
+  {
+    "instruction": "Answer this question about the petition: Judge's Analysis of Section 25(G) Violation",
+    "input": "As far as the violation of <a href=\"/doc/607947/\" id=\"a_13\">Section 25(G)</a> of the Act is\n\nconcerned, learned Labour Court has spelled out the reasoning in\n\n\n\n\n\nPara-12 of the award by giving reference of the workmen who were\n\njunior to the present respondent i.e. engaged after the present\n\nrespondent    and   whose    services   in   fact    stood       subsequently\n\nregularized. During the hearing of this writ petition, it could not be\n\ndemonstrated on the basis of record by the petitioners/State that the\n\n\n\n\n<span class=\"hidden_text\" id=\"span_19\">                                             ::: Downloaded on - 13/04/2023 20:32:38 :::CIS</span>\n<span class=\"hidden_text\" id=\"span_20\">                                   10</span>\n\nfindings so returned by the learned Labour Court were perverse\n\nfindings and not borne out from the record.",
+    "output": "Based on the petition content: Judge's Analysis of Section 25(G) Violation"
+  },
+  {
+    "instruction": "Answer this question about the petition: Judge's Analysis of Delay/Laches",
+    "input": "As far as the violation of <a href=\"/doc/607947/\" id=\"a_13\">Section 25(G)</a> of the Act is\n\nconcerned, learned Labour Court has spelled out the reasoning in\n\n\n\n\n\nPara-12 of the award by giving reference of the workmen who were\n\njunior to the present respondent i.e. engaged after the present\n\nrespondent    and   whose    services   in   fact    stood       subsequently\n\nregularized. During the hearing of this writ petition, it could not be\n\ndemonstrated on the basis of record by the petitioners/State that the\n\n\n\n\n<span class=\"hidden_text\" id=\"span_19\">                                             ::: Downloaded on - 13/04/2023 20:32:38 :::CIS</span>\n<span class=\"hidden_text\" id=\"span_20\">                                   10</span>\n\nfindings so returned by the learned Labour Court were perverse\n\nfindings and not borne out from the record.\n</p>\n<p data-structure=\"Conclusion\" id=\"p_29\">13.         As far as the issue of delay and laches is concerned it is\n\n\n\n\n                                                               .\n</p>\n<p data-structure=\"CDiscource\" id=\"p_30\">borne out from the record that after the termination of his services in\n\nthe month of November, 1999, it is not as if the petitioner raised the\n\n\n\n\n\nindustrial dispute for the first time in the year 2010. Record\n\ndemonstrates that the petitioner raised the industrial dispute in the\n\n\n\n\n\nyear 2006 also but the same was rejected by the authority concerned\n\nas at the relevant time, the department concerned did not place before\n\nthe authority the correct facts, in terms whereof, the petitioner had put\n\nin more than 240 days in the calendar year preceding his termination.\n</p>\n<p data-structure=\"Precedent\" id=\"p_31\"><span class=\"citetext\" data-sentiment=\"PARTY\" data-docid=\"7876509\" id=\"span_21\">When this fact came to the notice of the workman that he again\n\n\n\nagitated the issue and as the stand of the workman was found correct,\n\n\n\n\nit is thereafter that the Appropriate Government made the reference to\n\n\n\n\n\nthe learned Labour Court. A perusal of the Award passed by learned\n\nLabour Court demonstrates that this issue has been addressed and\n\n\n\n\n\nredressed by the learned Labour Court while deciding Issue No. 3,\n\nfindings returned wherein are substantiated from the record. As far as\n\nthe judgment relied upon by learned Deputy Advocate General, in <a href=\"/doc/7876509/\" id=\"a_14\">the\n\nsaid   judgment</a>,   i.e.   <a href=\"/doc/7876509/\" id=\"a_15\">Prabhakar    vs.   Joint    Director        Sericulture\n\nDepartment and another</a> (supra), Hon&#x27;ble Supreme Court of India has\n\n\n\n\n<span class=\"hidden_text\" id=\"span_22\">                                              ::: Downloaded on - 13/04/2023 20:32:38 :::CIS</span>\n<span class=\"hidden_text\" id=\"span_23\">                                  11</span>\n\nlaid down the law that notwithstanding the fact that law of limitation\n\ndoes not apply to the industrial disputes, it is to be shown by the\n\nworkman that there is a dispute in praesenti. Hon&#x27;ble Court has held\n\n\n\n\n                                                             .</span>\n</p>\n<p data-structure=\"Precedent\" id=\"p_32\"><span class=\"citetext\" data-sentiment=\"Pos\" data-docid=\"7876509\" id=\"span_24\">that the workman has to demonstrate that even if considerable period\n\nhas lapsed and there are delays and laches, such delay has not\n\n\n\n\n\nresulted into making the industrial dispute cease to exist and if the\n\nworkman is able to give satisfactory explanation for these laches and\n\n\n\n\n\ndelays and demonstrate that the circumstances disclose that issue is\n\nstill alive, delay would not come in his way because of the reason that\n\nlaw of limitation has no applicability. Hon&#x27;ble Supreme <a href=\"/doc/7876509/\" id=\"a_16\">Court further\n\nheld</a> that if on the other hand because of such delay dispute no longer\n\nremains alive and is to be treated as &quot;dead&quot;, then it would be non-</span>\n</p>\n\n\n<p data-structure=\"Precedent\" id=\"p_33\">existent dispute which cannot be referred to. In this case, as already\n\n\n\n\nmentioned hereinabove, the petitioner had initially agitated his cause\n\n\n\n\n\nin the year 2006 which was wrongly rejected by the authority\n\nconcerned and thereafter he subsequently took up the issue in the\n\n\n\n\n\nyear 2010. As the contention and grievance of the petitioner that\n\npersons junior to him were not only retained by the department but\n\ntheir services were subsequently regularized is a matter of record and\n\nfurther as the services of the workman were terminated by the\n\ndepartment in the year 1999 in violation of the provisions of Sections\n\n\n\n\n<span class=\"hidden_text\" id=\"span_25\">                                            ::: Downloaded on - 13/04/2023 20:32:38 :::CIS</span>\n<span class=\"hidden_text\" id=\"span_26\">                                       12</span>\n\n25(F) and 25(G) of the Industrial Disputes Act, therefore, it cannot be\n\nsaid that the industrial dispute had ceased to exist.",
+    "output": "Based on the petition content: Judge's Analysis of Delay/Laches"
+  },
+  {
+    "instruction": "Answer this question about the petition: Supreme Court Precedent",
+    "input": "",
+    "output": "Based on the petition content: Supreme Court Precedent"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Details**",
+    "input": "",
+    "output": "Based on the petition content: **Case Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Petitioners Involved**",
+    "input": "",
+    "output": "Based on the petition content: **Petitioners Involved**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court Hearing Details**",
+    "input": "Balance Daily Board cannot be taken up today on account of\n     paucity of time. Stand over to 22/06/2023 . Ad-interim relief or\n     interim relief, if any, granted earlier will continue to operate till\n     next date.",
+    "output": "Based on the petition content: **Court Hearing Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Case Details**",
+    "input": "IN THE HIGH COURT OF JHARKHAND AT RANCHI\n                        A.B.A. No. 8885 of 2022\n     1. Mahanand Yadav @ Sukra Yadav\n     2. Jagarnath Yadav\n     3. Prakash Yadav\n     4. Bhudeo Yadav\n     5. Rukmani Devi\n     6. Kavita Devi\n     7. Most. Pachiya Devi\n     8. Sugia Devi                                        ...... Petitioners\n                                      Versus\n     1. The State of Jharkhand\n     2. Dewali Devi                                       ......Opposite parties",
+    "output": "Based on the petition content: **Case Details**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court and Counsel**",
+    "input": "For the Petitioners : Mr. Arun Kumar, Advocate\n     For the State       : Mrs. Snehlika Bhagat, A.P.P.\n                                      .....\n</p><p data-structure=\"CDiscource\" id=\"p_4\"> Order No.03/ Dated:25.01.2023\n          Heard learned counsel for the parties.",
+    "output": "Based on the petition content: **Court and Counsel**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Petitioner's Request**",
+    "input": "Apprehending their arrest in connection with Complaint (P.C.R.) Case\n         No. 84 of 2022 instituted under <a href=\"/doc/1258372/\" id=\"a_1\">Sections 147</a>/ <a href=\"/doc/1011035/\" id=\"a_2\">323</a>/ <a href=\"/doc/1947545/\" id=\"a_3\">448</a>/ <a href=\"/doc/838469/\" id=\"a_4\">452</a>/<a href=\"/doc/180217/\" id=\"a_5\">506</a>/<a href=\"/doc/37788/\" id=\"a_6\">34</a> of the\n         Indian Penal Code and Section 3 &amp; 4 of the Prevention of Witch (Daain)\n         Practices Act, 1999 the petitioners have moved to this Court for grant of\n         privilege of anticipatory bail.",
+    "output": "Based on the petition content: **Petitioner's Request**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Allegations Against Petitioners**",
+    "input": "As per complaint case, allegation is that present petitioners came to the\n         house of the complainant calling her witch and admitted to administer\n         cow dung to her and also assaulted by fist and slap. It is further alleged\n         that they have damaged the house hold articles worth Rs. 5,000/- and took\n         away Rs. 10,000/- cash and also extended threatening to death.",
+    "output": "Based on the petition content: **Allegations Against Petitioners**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Petitioners' Argument**",
+    "input": "",
+    "output": "Based on the petition content: **Petitioners' Argument**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **State's Argument**",
+    "input": "",
+    "output": "Based on the petition content: **State's Argument**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Court's Decision**",
+    "input": "Considering the facts and circumstances of this case, the nature of\nallegation coupled with materials on record, I am inclined to grant\nprivilege of anticipatory bail to the petitioners. Accordingly, the\npetitioners are directed to surrender in the Court below within four weeks\nfrom today and in the event of their arrest or surrendering, they will be\nenlarged on bail on furnishing bail bond of Rs.20,000/- (Rupees Twenty\nThousand) each with two sureties of the like amount each to the\nsatisfaction of learned S.D.J.M., Dumka in connection with Complaint\n(P.C.R.) Case No. 84 of 2022 with the condition that they will co-operate\nwith the investigation of the case and appear before the investigating\nofficer as and when noticed by him and furnish their mobile number and\nphotocopy of the Aadhar Card with an undertaking that they will not\nchange their mobile number during the pendency of the case and subject\nto the conditions as laid down under <a href=\"/doc/1692057/\" id=\"a_7\">Section 438(2)</a> of the Code of\nCriminal Procedure.",
+    "output": "Based on the petition content: **Court's Decision**"
+  },
+  {
+    "instruction": "Answer this question about the petition: **Judge's Signature**",
+    "input": "(Pradeep Kumar Srivastava, J.)",
+    "output": "Based on the petition content: **Judge's Signature**"
+  }
+]
