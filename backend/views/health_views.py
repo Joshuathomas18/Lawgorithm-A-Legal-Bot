@@ -11,7 +11,7 @@ from typing import Dict, Any
 import logging
 from datetime import datetime
 
-from ..models.schemas import HealthResponse, ErrorResponse
+from models.schemas import HealthResponse, ErrorResponse
 
 logger = logging.getLogger(__name__)
 
