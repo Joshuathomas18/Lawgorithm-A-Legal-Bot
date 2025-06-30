@@ -4,6 +4,12 @@ import styled, { createGlobalStyle } from 'styled-components';
 const API_BASE = process.env.REACT_APP_BACKEND_URL + '/v1';
 const CHATBOT_API = process.env.REACT_APP_BACKEND_URL + '/v1/chatbot';
 
+// Debug logging
+console.log('Environment variables check:');
+console.log('REACT_APP_BACKEND_URL:', process.env.REACT_APP_BACKEND_URL);
+console.log('API_BASE:', API_BASE);
+console.log('CHATBOT_API:', CHATBOT_API);
+
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap');
   body {
