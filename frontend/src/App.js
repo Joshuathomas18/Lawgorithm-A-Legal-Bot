@@ -1,8 +1,8 @@
 import React, { useState, useRef, useEffect } from 'react';
 import styled, { createGlobalStyle } from 'styled-components';
 
-const API_BASE = 'http://localhost:8000/api/v1';
-const CHATBOT_API = 'http://localhost:8000/api/v1/chatbot';
+const API_BASE = process.env.REACT_APP_BACKEND_URL + '/v1';
+const CHATBOT_API = process.env.REACT_APP_BACKEND_URL + '/v1/chatbot';
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap');
