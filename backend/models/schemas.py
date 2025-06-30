@@ -1,83 +1,37 @@
 #!/usr/bin/env python3
 """
 Pydantic Schemas
-================
+===============
 
-Data models for request/response validation.
+Data models and schemas for the Lawgorithm API.
 """
 
-from pydantic import BaseModel, Field
-from typing import List, Optional, Dict, Any
+from pydantic import BaseModel
+from typing import Optional, List, Dict, Any
 from datetime import datetime
-from enum import Enum
-
-class CaseType(str, Enum):
-    CRIMINAL = "criminal"
-    CIVIL = "civil"
-    FAMILY = "family"
-    CONSTITUTIONAL = "constitutional"
-    ENVIRONMENTAL = "environmental"
-    COMMERCIAL = "commercial"
-    TAX = "tax"
-    LABOR = "labor"
-    CONSUMER = "consumer"
-    PROPERTY = "property"
-    CONTRACT = "contract"
-    TORT = "tort"
-
-class CourtType(str, Enum):
-    SUPREME_COURT = "Supreme Court"
-    HIGH_COURT = "High Court"
-    DISTRICT_COURT = "District Court"
-    MAGISTRATE_COURT = "Magistrate Court"
-    CONSUMER_COURT = "Consumer Court"
-    FAMILY_COURT = "Family Court"
-    LABOR_COURT = "Labor Court"
-    COMMERCIAL_COURT = "Commercial Court"
-    TRIBUNAL = "Tribunal"
 
 # Health Check Schemas
 class HealthResponse(BaseModel):
     status: str
     message: str
     timestamp: str
-    version: str = "1.0.0"
+    version: str
 
-# Petition Schemas
-class CaseDetails(BaseModel):
-    case_type: CaseType
-    court: CourtType
-    petitioner_name: str = Field(..., min_length=1)
-    respondent_name: str = Field(..., min_length=1)
-    incident_date: str
-    filing_date: str
-    case_number: Optional[str] = None
-    facts: str = Field(..., min_length=10)
-    evidence: str = Field(..., min_length=10)
-    relief: str = Field(..., min_length=10)
-    legal_grounds: str = Field(..., min_length=10)
+class ErrorResponse(BaseModel):
+    error: str
+    detail: str
+    timestamp: str
 
-class PetitionRequest(BaseModel):
-    case_details: CaseDetails
-    session_id: Optional[str] = None
+# Session Schemas
+class SessionCreateRequest(BaseModel):
+    user_id: Optional[str] = None
+    metadata: Optional[Dict[str, Any]] = None
 
-class PetitionResponse(BaseModel):
-    petition_id: str
-    petition_text: str
-    case_details: CaseDetails
-    generated_at: str
+class SessionResponse(BaseModel):
     session_id: str
-    status: str = "generated"
-
-class PetitionEditRequest(BaseModel):
-    changes_requested: str = Field(..., min_length=10)
-    session_id: str
-
-class PetitionEditResponse(BaseModel):
-    petition_id: str
-    updated_petition_text: str
-    changes_made: str
-    updated_at: str
+    user_id: str
+    created_at: str
+    expires_at: str
 
 # Conversation Schemas
 class ConversationStartRequest(BaseModel):
@@ -90,9 +44,9 @@ class ConversationStartResponse(BaseModel):
     status: str = "started"
 
 class MessageRequest(BaseModel):
-    message: str = Field(..., min_length=1)
-    session_id: str
     conversation_id: str
+    session_id: str
+    message: str
 
 class MessageResponse(BaseModel):
     message_id: str
@@ -102,50 +56,88 @@ class MessageResponse(BaseModel):
     session_id: str
     conversation_id: str
 
+class ConversationMessage(BaseModel):
+    message_id: str
+    user_message: str
+    assistant_response: str
+    timestamp: str
+
 class ConversationHistoryResponse(BaseModel):
     conversation_id: str
     session_id: str
-    messages: List[MessageResponse]
+    messages: List[ConversationMessage]
     created_at: str
     updated_at: str
 
+# Chatbot Schemas
+class ChatbotMessageRequest(BaseModel):
+    message: str
+    session_id: str
+    conversation_id: str
+
+class ChatbotMessageResponse(BaseModel):
+    message_id: str
+    user_message: str
+    assistant_response: str
+    timestamp: str
+    session_id: str
+    conversation_id: str
+
+# Petition Schemas
+class PetitionGenerateRequest(BaseModel):
+    session_id: str
+    case_type: str
+    case_facts: str
+    relief_sought: str
+    additional_details: Optional[Dict[str, Any]] = None
+
+class PetitionResponse(BaseModel):
+    petition_id: str
+    petition_text: str
+    case_details: Dict[str, Any]
+    generated_at: str
+    status: str
+
+class PetitionUpdateRequest(BaseModel):
+    petition_text: str
+    changes_made: str
+
 # Document Schemas
 class DocumentExportRequest(BaseModel):
-    petition_id: str
-    format: str = Field(..., pattern="^(json|txt|pdf)$")
-    session_id: str
+    document_text: str
+    format: str  # txt, pdf, docx
+    filename: str
 
 class DocumentExportResponse(BaseModel):
-    document_id: str
-    petition_id: str
+    success: bool
+    file_path: Optional[str] = None
+    download_url: Optional[str] = None
+    format: Optional[str] = None
+    error: Optional[str] = None
+
+class DocumentInfo(BaseModel):
+    filename: str
+    file_path: str
+    size: int
+    created: float
+    modified: float
     format: str
-    download_url: str
-    generated_at: str
 
-class DocumentVersionResponse(BaseModel):
-    version_id: str
-    petition_id: str
-    version_number: int
-    changes_made: str
-    created_at: str
-    document_url: str
+# RAG Schemas
+class RAGQueryRequest(BaseModel):
+    query: str
+    limit: Optional[int] = 5
 
-# Session Schemas
-class SessionCreateRequest(BaseModel):
-    user_id: Optional[str] = None
-    metadata: Optional[Dict[str, Any]] = None
+class RAGDocument(BaseModel):
+    id: str
+    title: str
+    content: str
+    category: str
+    document_type: str
+    relevance_score: Optional[float] = None
 
-class SessionResponse(BaseModel):
-    session_id: str
-    user_id: Optional[str]
-    created_at: str
-    last_activity: str
-    is_active: bool
-    metadata: Optional[Dict[str, Any]] = None
-
-# Error Schemas
-class ErrorResponse(BaseModel):
-    error: str
-    message: str
-    timestamp: str
-    details: Optional[Dict[str, Any]] = None 
+class RAGQueryResponse(BaseModel):
+    query: str
+    documents: List[RAGDocument]
+    context: str
+    response: str
