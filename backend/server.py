@@ -1,15 +1,13 @@
 #!/usr/bin/env python3
 """
-Main Server Entry Point
-=======================
+LegalAI Pro Server
+==================
 
-Main FastAPI server for the Lawgorithm legal petition automation system.
-This is the primary entry point that initializes all services and routes.
+Advanced AI-powered legal platform with premium features.
 """
 
 import os
 import sys
-import uuid
 import logging
 import asyncio
 from datetime import datetime
@@ -43,6 +41,7 @@ from models.database import init_db, close_db
 from views.health_views import router as health_router
 from views.conversation_views import router as conversation_router
 from views.chatbot_llm_views import router as chatbot_router
+from views.premium_legal_views import router as premium_router
 
 # Configure logging
 logging.basicConfig(
@@ -53,9 +52,9 @@ logger = logging.getLogger(__name__)
 
 # Create FastAPI app
 app = FastAPI(
-    title="Lawgorithm API",
-    description="AI-powered legal petition automation system",
-    version="1.0.0",
+    title="LegalAI Pro API",
+    description="Advanced AI-powered legal intelligence platform",
+    version="2.0.0",
     docs_url="/api/docs",
     redoc_url="/api/redoc"
 )
@@ -82,7 +81,7 @@ async def initialize_services():
     global gemini_service, rag_service, conversation_service, petition_service, document_service, session_service
     
     try:
-        logger.info("🚀 Initializing Lawgorithm services...")
+        logger.info("🚀 Initializing LegalAI Pro services...")
         
         # Initialize database first
         await init_db()
@@ -94,19 +93,24 @@ async def initialize_services():
             model_name=settings.GEMINI_MODEL_NAME
         )
         await gemini_service.initialize()
-        logger.info("✅ Gemini service initialized")
+        logger.info("✅ Gemini AI service initialized")
         
         # Initialize RAG service
         rag_service = RAGService()
         rag_service.gemini_service = gemini_service
         await rag_service.initialize()
-        logger.info("✅ RAG service initialized")
+        logger.info("✅ RAG system initialized")
         
         # Initialize other services
         session_service = SessionService()
         document_service = DocumentService()
         conversation_service = ConversationService(rag_service, gemini_service)
         petition_service = PetitionService(rag_service, gemini_service)
+        
+        # Inject services into premium views
+        import views.premium_legal_views as premium_views
+        premium_views.gemini_service = gemini_service
+        premium_views.rag_service = rag_service
         
         logger.info("✅ All services initialized successfully!")
         
@@ -119,7 +123,7 @@ async def startup_event():
     """Application startup event"""
     try:
         await initialize_services()
-        logger.info("🎉 Lawgorithm API started successfully!")
+        logger.info("🎉 LegalAI Pro started successfully!")
     except Exception as e:
         logger.error(f"❌ Startup failed: {e}")
         raise
@@ -129,14 +133,15 @@ async def shutdown_event():
     """Application shutdown event"""
     try:
         await close_db()
-        logger.info("👋 Lawgorithm API shutdown complete")
+        logger.info("👋 LegalAI Pro shutdown complete")
     except Exception as e:
         logger.error(f"⚠️ Shutdown error: {e}")
 
 # Include routers
 app.include_router(health_router, prefix="/api", tags=["Health"])
 app.include_router(conversation_router, prefix="/api/v1/conversations", tags=["Conversations"])
-app.include_router(chatbot_router, prefix="/api/v1/chatbot", tags=["Chatbot"])
+app.include_router(chatbot_router, prefix="/api/v1/chatbot", tags=["AI Assistant"])
+app.include_router(premium_router, prefix="/api/v1/premium", tags=["Premium Features"])
 
 # Create static directory if it doesn't exist
 static_dir = Path("static")
@@ -149,28 +154,25 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 async def root():
     """Root API endpoint"""
     return {
-        "message": "Welcome to Lawgorithm API",
-        "description": "AI-powered legal petition automation system",
-        "version": "1.0.0",
+        "message": "Welcome to LegalAI Pro API",
+        "description": "Advanced AI-powered legal intelligence platform",
+        "version": "2.0.0",
         "status": "operational",
         "timestamp": datetime.now().isoformat(),
+        "features": {
+            "ai_assistant": "Advanced legal consultation",
+            "document_analyzer": "AI-powered document analysis",
+            "legal_generator": "Professional document generation",
+            "legal_research": "Comprehensive legal research",
+            "case_predictor": "AI case outcome prediction",
+            "lawyer_directory": "Verified lawyer network"
+        },
         "endpoints": {
             "health": "/api/health",
             "docs": "/api/docs",
             "conversations": "/api/v1/conversations",
-            "chatbot": "/api/v1/chatbot"
-        }
-    }
-
-@app.get("/api/test")
-async def test_frontend():
-    """Test endpoint for frontend debugging"""
-    return {
-        "message": "Backend is working!",
-        "timestamp": datetime.now().isoformat(),
-        "test_data": {
-            "session_test": str(uuid.uuid4()),
-            "conversation_test": str(uuid.uuid4())
+            "chatbot": "/api/v1/chatbot",
+            "premium": "/api/v1/premium"
         }
     }
 
@@ -178,9 +180,10 @@ async def test_frontend():
 async def redirect_to_api():
     """Redirect root to API endpoint"""
     return {
-        "message": "Lawgorithm Legal AI System",
+        "message": "LegalAI Pro - Advanced Legal Intelligence Platform",
         "api_endpoint": "/api",
-        "documentation": "/api/docs"
+        "documentation": "/api/docs",
+        "platform_version": "2.0.0"
     }
 
 # Error handlers
@@ -193,19 +196,43 @@ async def global_exception_handler(request, exc):
         content={"error": "Internal server error", "detail": str(exc)}
     )
 
-# Health check endpoint
+# Enhanced health check endpoint
 @app.get("/api/health")
 async def health_check():
-    """Quick health check"""
-    return {
-        "status": "healthy",
-        "timestamp": datetime.now().isoformat(),
-        "services": {
-            "gemini": gemini_service.is_initialized if gemini_service else False,
-            "rag": rag_service.is_initialized if rag_service else False,
-            "database": True
+    """Comprehensive health check"""
+    try:
+        service_status = {
+            "gemini_ai": gemini_service.is_initialized if gemini_service else False,
+            "rag_system": rag_service.is_initialized if rag_service else False,
+            "database": True,
+            "conversation_service": conversation_service is not None,
+            "document_service": document_service is not None
         }
-    }
+        
+        overall_health = all(service_status.values())
+        
+        return {
+            "status": "healthy" if overall_health else "degraded",
+            "timestamp": datetime.now().isoformat(),
+            "version": "2.0.0",
+            "services": service_status,
+            "features": {
+                "ai_consultation": service_status["gemini_ai"] and service_status["rag_system"],
+                "document_analysis": service_status["gemini_ai"],
+                "legal_research": service_status["rag_system"],
+                "document_generation": service_status["gemini_ai"],
+                "case_prediction": service_status["gemini_ai"]
+            },
+            "overall_healthy": overall_health
+        }
+    except Exception as e:
+        logger.error(f"❌ Health check failed: {e}")
+        return {
+            "status": "unhealthy",
+            "timestamp": datetime.now().isoformat(),
+            "error": str(e),
+            "overall_healthy": False
+        }
 
 if __name__ == "__main__":
     uvicorn.run(
