@@ -4,7 +4,6 @@ uvicorn[standard]==0.24.0
 python-multipart==0.0.6
 
 # Database
-sqlite3  # Built-in with Python
 aiosqlite==0.19.0
 
 # HTTP client
