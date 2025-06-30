@@ -1,205 +1,162 @@
 #!/usr/bin/env python3
 """
 Document Service
-================
+===============
 
-Service for handling document operations, exports, and versioning.
+Service for document generation and export functionality.
 """
 
 import logging
-import uuid
-import json
 import os
-from datetime import datetime
-from typing import Dict, Any, Optional, List
-from ..models.database import PetitionRepository
+from pathlib import Path
+from typing import Dict, Any, Optional
 
 logger = logging.getLogger(__name__)
 
 class DocumentService:
-    def __init__(self, base_path: str = "static/documents"):
-        self.base_path = base_path
-        self._ensure_directories()
+    def __init__(self):
+        self.is_initialized = True
+        self.document_base_path = Path("static/documents")
+        self.document_base_path.mkdir(parents=True, exist_ok=True)
         
-    def _ensure_directories(self):
-        """Ensure document directories exist"""
-        os.makedirs(self.base_path, exist_ok=True)
-        os.makedirs("static", exist_ok=True)
-        
-    async def export_document(self, petition_id: str, format_type: str, session_id: str) -> Optional[Dict[str, Any]]:
-        """Export a petition in the specified format"""
+    async def export_document(self, document_text: str, format: str, filename: str) -> Optional[Dict[str, Any]]:
+        """Export document to specified format"""
         try:
-            logger.info(f"📄 Exporting petition {petition_id} in {format_type} format")
+            logger.info(f"📄 Exporting document as {format}: {filename}")
             
-            # Get petition data
-            petition = await PetitionRepository.get_petition(petition_id)
-            if not petition:
-                logger.error(f"❌ Petition not found: {petition_id}")
+            if format.lower() == 'txt':
+                return await self._export_as_text(document_text, filename)
+            elif format.lower() == 'pdf':
+                return await self._export_as_pdf(document_text, filename)
+            elif format.lower() in ['docx', 'doc']:
+                return await self._export_as_docx(document_text, filename)
+            else:
+                logger.error(f"❌ Unsupported format: {format}")
                 return None
-            
-            # Generate document
-            document_id = str(uuid.uuid4())
-            file_path = await self._generate_document_file(
-                petition, format_type, document_id
-            )
-            
-            if not file_path:
-                logger.error("❌ Failed to generate document file")
-                return None
-            
-            # Create download URL
-            download_url = f"/static/documents/{os.path.basename(file_path)}"
-            
-            return {
-                'document_id': document_id,
-                'file_path': file_path,
-                'download_url': download_url,
-                'generated_at': datetime.now().isoformat()
-            }
-            
+                
         except Exception as e:
             logger.error(f"❌ Error exporting document: {e}")
             return None
     
-    async def _generate_document_file(self, petition: Dict[str, Any], format_type: str, document_id: str) -> Optional[str]:
-        """Generate document file in specified format"""
+    async def _export_as_text(self, document_text: str, filename: str) -> Dict[str, Any]:
+        """Export document as plain text"""
         try:
-            case_details = petition['case_details']
-            petition_text = petition['petition_text']
+            file_path = self.document_base_path / f"{filename}.txt"
             
-            if format_type == "json":
-                return await self._generate_json_file(petition, document_id)
-            elif format_type == "txt":
-                return await self._generate_text_file(petition, document_id)
-            elif format_type == "pdf":
-                return await self._generate_pdf_file(petition, document_id)
-            else:
-                logger.error(f"❌ Unsupported format: {format_type}")
-                return None
-                
-        except Exception as e:
-            logger.error(f"❌ Error generating document file: {e}")
-            return None
-    
-    async def _generate_json_file(self, petition: Dict[str, Any], document_id: str) -> str:
-        """Generate JSON document file"""
-        file_path = os.path.join(self.base_path, f"{document_id}.json")
-        
-        document_data = {
-            'document_id': document_id,
-            'petition_id': petition.get('petition_id'),
-            'generated_at': datetime.now().isoformat(),
-            'format': 'json',
-            'case_details': petition['case_details'],
-            'petition_text': petition['petition_text'],
-            'metadata': {
-                'version': petition.get('version_number', 1),
-                'session_id': petition.get('session_id'),
-                'status': petition.get('status', 'generated')
-            }
-        }
-        
-        with open(file_path, 'w', encoding='utf-8') as f:
-            json.dump(document_data, f, ensure_ascii=False, indent=2)
-        
-        return file_path
-    
-    async def _generate_text_file(self, petition: Dict[str, Any], document_id: str) -> str:
-        """Generate text document file"""
-        file_path = os.path.join(self.base_path, f"{document_id}.txt")
-        
-        case_details = petition['case_details']
-        
-        with open(file_path, 'w', encoding='utf-8') as f:
-            f.write("LEGAL PETITION GENERATED BY PETITION AUTOMATOR\n")
-            f.write("=" * 60 + "\n\n")
-            f.write(f"Case Type: {case_details.get('case_type', 'Unknown')}\n")
-            f.write(f"Court: {case_details.get('court', 'Unknown')}\n")
-            f.write(f"Petitioner: {case_details.get('petitioner_name', 'Unknown')}\n")
-            f.write(f"Respondent: {case_details.get('respondent_name', 'Unknown')}\n")
-            f.write(f"Generated: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n\n")
-            f.write("=" * 60 + "\n\n")
-            f.write(petition['petition_text'])
-        
-        return file_path
-    
-    async def _generate_pdf_file(self, petition: Dict[str, Any], document_id: str) -> str:
-        """Generate PDF document file (placeholder)"""
-        # For now, generate a text file with .pdf extension
-        # In production, you'd use a library like reportlab or weasyprint
-        file_path = os.path.join(self.base_path, f"{document_id}.pdf")
-        
-        # Create a simple text-based PDF placeholder
-        with open(file_path, 'w', encoding='utf-8') as f:
-            f.write("PDF generation would be implemented here\n")
-            f.write("Using libraries like reportlab or weasyprint\n")
-            f.write(f"Petition ID: {petition.get('petition_id')}\n")
-            f.write(f"Generated: {datetime.now().isoformat()}\n")
-        
-        return file_path
-    
-    async def get_document_versions(self, petition_id: str) -> List[Dict[str, Any]]:
-        """Get all versions of a document"""
-        try:
-            logger.info(f"📜 Getting versions for petition: {petition_id}")
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write(document_text)
             
-            # This would query the database for document versions
-            # For now, return placeholder data
-            return [
-                {
-                    'version_id': f"{petition_id}_v1",
-                    'version_number': 1,
-                    'created_at': datetime.now().isoformat(),
-                    'changes_made': 'Initial version'
-                }
-            ]
-            
-        except Exception as e:
-            logger.error(f"❌ Error getting document versions: {e}")
-            return []
-    
-    async def get_specific_version(self, petition_id: str, version_number: int) -> Optional[Dict[str, Any]]:
-        """Get a specific version of a document"""
-        try:
-            logger.info(f"📄 Getting version {version_number} of petition: {petition_id}")
-            
-            # This would query the database for specific version
-            # For now, return placeholder data
             return {
-                'version_id': f"{petition_id}_v{version_number}",
-                'version_number': version_number,
-                'created_at': datetime.now().isoformat(),
-                'changes_made': f'Version {version_number}',
-                'document_url': f'/static/documents/{petition_id}_v{version_number}.txt'
+                'success': True,
+                'file_path': str(file_path),
+                'download_url': f"/static/documents/{filename}.txt",
+                'format': 'txt'
             }
             
         except Exception as e:
-            logger.error(f"❌ Error getting specific version: {e}")
-            return None
+            logger.error(f"❌ Error exporting as text: {e}")
+            return {'success': False, 'error': str(e)}
     
-    async def get_document_file_path(self, document_id: str) -> Optional[str]:
-        """Get file path for a document"""
+    async def _export_as_pdf(self, document_text: str, filename: str) -> Dict[str, Any]:
+        """Export document as PDF (placeholder - requires PDF library)"""
         try:
-            # Look for files with this document ID
-            for filename in os.listdir(self.base_path):
-                if filename.startswith(document_id):
-                    return os.path.join(self.base_path, filename)
+            # For now, export as text file with PDF extension
+            # In production, you would use a library like reportlab or weasyprint
+            file_path = self.document_base_path / f"{filename}.pdf"
+            
+            # Create a simple text-based PDF placeholder
+            pdf_content = f"""
+PDF Document Generated by Lawgorithm
+=====================================
+
+{document_text}
+
+---
+Generated by Lawgorithm Legal AI System
+For production use, implement proper PDF generation library.
+"""
+            
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write(pdf_content)
+            
+            return {
+                'success': True,
+                'file_path': str(file_path),
+                'download_url': f"/static/documents/{filename}.pdf",
+                'format': 'pdf',
+                'note': 'PDF generation placeholder - implement proper PDF library for production'
+            }
+            
+        except Exception as e:
+            logger.error(f"❌ Error exporting as PDF: {e}")
+            return {'success': False, 'error': str(e)}
+    
+    async def _export_as_docx(self, document_text: str, filename: str) -> Dict[str, Any]:
+        """Export document as DOCX (placeholder - requires python-docx)"""
+        try:
+            # For now, export as text file with DOCX extension
+            # In production, you would use python-docx library
+            file_path = self.document_base_path / f"{filename}.docx"
+            
+            docx_content = f"""
+DOCX Document Generated by Lawgorithm
+=====================================
+
+{document_text}
+
+---
+Generated by Lawgorithm Legal AI System
+For production use, implement proper DOCX generation using python-docx library.
+"""
+            
+            with open(file_path, 'w', encoding='utf-8') as f:
+                f.write(docx_content)
+            
+            return {
+                'success': True,
+                'file_path': str(file_path),
+                'download_url': f"/static/documents/{filename}.docx",
+                'format': 'docx',
+                'note': 'DOCX generation placeholder - implement python-docx library for production'
+            }
+            
+        except Exception as e:
+            logger.error(f"❌ Error exporting as DOCX: {e}")
+            return {'success': False, 'error': str(e)}
+    
+    async def get_document_info(self, filename: str) -> Optional[Dict[str, Any]]:
+        """Get document information"""
+        try:
+            # Check for file with any extension
+            for ext in ['.txt', '.pdf', '.docx']:
+                file_path = self.document_base_path / f"{filename}{ext}"
+                if file_path.exists():
+                    stat = file_path.stat()
+                    return {
+                        'filename': filename + ext,
+                        'file_path': str(file_path),
+                        'size': stat.st_size,
+                        'created': stat.st_ctime,
+                        'modified': stat.st_mtime,
+                        'format': ext[1:]  # Remove the dot
+                    }
             
             return None
             
         except Exception as e:
-            logger.error(f"❌ Error getting document file path: {e}")
+            logger.error(f"❌ Error getting document info: {e}")
             return None
     
-    async def delete_document(self, document_id: str) -> bool:
+    async def delete_document(self, filename: str) -> bool:
         """Delete a document"""
         try:
-            logger.info(f"🗑️ Deleting document: {document_id}")
-            
-            file_path = await self.get_document_file_path(document_id)
-            if file_path and os.path.exists(file_path):
-                os.remove(file_path)
-                return True
+            # Check for file with any extension
+            for ext in ['.txt', '.pdf', '.docx']:
+                file_path = self.document_base_path / f"{filename}{ext}"
+                if file_path.exists():
+                    os.remove(file_path)
+                    logger.info(f"✅ Deleted document: {filename}{ext}")
+                    return True
             
             return False
             
@@ -207,15 +164,49 @@ class DocumentService:
             logger.error(f"❌ Error deleting document: {e}")
             return False
     
-    async def get_session_documents(self, session_id: str) -> List[Dict[str, Any]]:
-        """Get all documents for a session"""
+    async def list_documents(self) -> list:
+        """List all documents"""
         try:
-            logger.info(f"📄 Getting documents for session: {session_id}")
+            documents = []
+            for file_path in self.document_base_path.iterdir():
+                if file_path.is_file():
+                    stat = file_path.stat()
+                    documents.append({
+                        'filename': file_path.name,
+                        'size': stat.st_size,
+                        'created': stat.st_ctime,
+                        'modified': stat.st_mtime,
+                        'download_url': f"/static/documents/{file_path.name}"
+                    })
             
-            # This would query the database for session documents
-            # For now, return empty list
-            return []
+            return documents
             
         except Exception as e:
-            logger.error(f"❌ Error getting session documents: {e}")
-            return [] 
+            logger.error(f"❌ Error listing documents: {e}")
+            return []
+    
+    async def health_check(self) -> Dict[str, Any]:
+        """Health check for document service"""
+        try:
+            # Check if document directory is writable
+            test_file = self.document_base_path / "test.txt"
+            test_file.write_text("test")
+            test_file.unlink()
+            
+            documents = await self.list_documents()
+            
+            return {
+                'status': 'healthy',
+                'initialized': self.is_initialized,
+                'document_base_path': str(self.document_base_path),
+                'writable': True,
+                'total_documents': len(documents)
+            }
+            
+        except Exception as e:
+            return {
+                'status': 'unhealthy',
+                'initialized': self.is_initialized,
+                'error': str(e),
+                'writable': False
+            }
