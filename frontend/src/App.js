@@ -378,7 +378,7 @@ function App() {
             <ChatTitle>Welcome to Lawgorithm</ChatTitle>
             <ChatDesc>I'm here to help you navigate the legal process. Let's start by understanding your case. What type of case are you dealing with?</ChatDesc>
             <div style={{fontSize:'12px', color:'#EDC70A', marginBottom:'10px', padding:'8px', background:'#333', borderRadius:'8px'}}>
-              Debug: {debugInfo} | Backend: http://10.64.135.154:8001/api | Session: {sessionId ? '✅' : '❌'}
+              Debug: {debugInfo} | Backend: http://localhost:8001/api | Session: {sessionId ? '✅' : '❌'}
             </div>
             <ChatMessages>
               {messages.map((msg, idx) => (
