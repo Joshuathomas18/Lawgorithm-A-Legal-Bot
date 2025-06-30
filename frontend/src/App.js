@@ -11,7 +11,6 @@ console.log('API_BASE:', API_BASE);
 console.log('CHATBOT_API:', CHATBOT_API);
 
 // Add debug alert to see if this runs in browser
-alert('Debug: React app is loading. Backend URL: ' + process.env.REACT_APP_BACKEND_URL);
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:wght@400;600;700&display=swap');
