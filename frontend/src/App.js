@@ -265,24 +265,38 @@ function App() {
   const [sessionId, setSessionId] = useState(null);
   const [conversationId, setConversationId] = useState(null);
   const [loading, setLoading] = useState(false);
+  const [debugInfo, setDebugInfo] = useState('Initializing...');
   const fileInputRef = useRef();
 
   // Start conversation on mount
   useEffect(() => {
     const startConversation = async () => {
       try {
+        setDebugInfo('Attempting to connect to backend...');
+        console.log('Attempting API call to:', `${API_BASE}/conversations/start`);
+        
         const res = await fetch(`${API_BASE}/conversations/start`, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({ user_id: 'frontend-user', initial_message: messages[0].text })
         });
+        
+        console.log('Response status:', res.status);
         const data = await res.json();
+        console.log('Response data:', data);
+        
         setSessionId(data.session_id);
         setConversationId(data.conversation_id);
+        
         if (!data.session_id || !data.conversation_id) {
+          setDebugInfo('❌ Failed to initialize conversation. Backend may be down.');
           alert('Failed to initialize conversation. Backend may be down or misconfigured.');
+        } else {
+          setDebugInfo('✅ Connected to backend successfully!');
         }
       } catch (err) {
+        console.error('Connection error:', err);
+        setDebugInfo('❌ Connection error: ' + err.toString());
         alert('Error connecting to backend: ' + err);
       }
     };
