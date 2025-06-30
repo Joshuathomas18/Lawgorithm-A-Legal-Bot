@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frontend Test</title>
+</head>
+<body>
+    <h1>Testing Frontend-Backend Communication</h1>
+    <div id="result"></div>
+    <button onclick="testConnection()">Test Backend Connection</button>
+    <button onclick="testChatbot()">Test Chatbot</button>
+    
+    <script>
+        const API_BASE = 'http://localhost:8001/api/v1';
+        const CHATBOT_API = 'http://localhost:8001/api/v1/chatbot';
+        
+        async function testConnection() {
+            try {
+                console.log('Testing connection to:', API_BASE + '/conversations/start');
+                const response = await fetch(API_BASE + '/conversations/start', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ user_id: 'test-user', initial_message: 'test' })
+                });
+                
+                console.log('Response status:', response.status);
+                const data = await response.json();
+                console.log('Response data:', data);
+                
+                document.getElementById('result').innerHTML = 
+                    '<h3>Connection Test Result:</h3>' +
+                    '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+                
+                // Store for chatbot test
+                window.sessionId = data.session_id;
+                window.conversationId = data.conversation_id;
+                
+            } catch (error) {
+                console.error('Connection test failed:', error);
+                document.getElementById('result').innerHTML = 
+                    '<h3>Connection Test Failed:</h3>' +
+                    '<pre>' + error.toString() + '</pre>';
+            }
+        }
+        
+        async function testChatbot() {
+            if (!window.sessionId || !window.conversationId) {
+                alert('Please run connection test first');
+                return;
+            }
+            
+            try {
+                console.log('Testing chatbot at:', CHATBOT_API + '/message');
+                const response = await fetch(CHATBOT_API + '/message', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        message: 'Hello, I need legal help',
+                        session_id: window.sessionId,
+                        conversation_id: window.conversationId
+                    })
+                });
+                
+                console.log('Chatbot response status:', response.status);
+                const data = await response.json();
+                console.log('Chatbot response data:', data);
+                
+                document.getElementById('result').innerHTML = 
+                    '<h3>Chatbot Test Result:</h3>' +
+                    '<pre>' + JSON.stringify(data, null, 2) + '</pre>';
+                
+            } catch (error) {
+                console.error('Chatbot test failed:', error);
+                document.getElementById('result').innerHTML = 
+                    '<h3>Chatbot Test Failed:</h3>' +
+                    '<pre>' + error.toString() + '</pre>';
+            }
+        }
+        
+        // Auto-test on load
+        window.onload = function() {
+            console.log('Testing frontend-backend communication...');
+            testConnection();
+        };
+    </script>
+</body>
+</html>
