@@ -377,6 +377,9 @@ function App() {
           <ChatBoxWrapper>
             <ChatTitle>Welcome to Lawgorithm</ChatTitle>
             <ChatDesc>I'm here to help you navigate the legal process. Let's start by understanding your case. What type of case are you dealing with?</ChatDesc>
+            <div style={{fontSize:'12px', color:'#EDC70A', marginBottom:'10px', padding:'8px', background:'#333', borderRadius:'8px'}}>
+              Debug: {debugInfo} | Backend: {process.env.REACT_APP_BACKEND_URL} | Session: {sessionId ? '✅' : '❌'}
+            </div>
             <ChatMessages>
               {messages.map((msg, idx) => (
                 <Message key={idx} user={msg.user}>{msg.text}</Message>
