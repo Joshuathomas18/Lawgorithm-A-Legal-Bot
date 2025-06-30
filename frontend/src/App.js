@@ -380,9 +380,6 @@ function App() {
             <div style={{fontSize:'12px', color:'#EDC70A', marginBottom:'10px', padding:'8px', background:'#333', borderRadius:'8px'}}>
               Debug: {debugInfo} | Backend: {process.env.REACT_APP_BACKEND_URL} | Session: {sessionId ? '✅' : '❌'}
             </div>
-            <div style={{fontSize:'12px', color:'#EDC70A', marginBottom:'10px', padding:'8px', background:'#333', borderRadius:'8px'}}>
-              Debug: {debugInfo} | Backend: {process.env.REACT_APP_BACKEND_URL} | Session: {sessionId ? '✅' : '❌'}
-            </div>
             <ChatMessages>
               {messages.map((msg, idx) => (
                 <Message key={idx} user={msg.user}>{msg.text}</Message>
