@@ -162,6 +162,18 @@ async def root():
         }
     }
 
+@app.get("/api/test")
+async def test_frontend():
+    """Test endpoint for frontend debugging"""
+    return {
+        "message": "Backend is working!",
+        "timestamp": datetime.now().isoformat(),
+        "test_data": {
+            "session_test": str(uuid.uuid4()),
+            "conversation_test": str(uuid.uuid4())
+        }
+    }
+
 @app.get("/")
 async def redirect_to_api():
     """Redirect root to API endpoint"""
