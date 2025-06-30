@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head><title>Simple Test</title></head>
+<body>
+<h1>Chat Test</h1>
+<input type="text" id="msg" placeholder="Type message..." style="width:300px;">
+<button onclick="sendMsg()">Send</button>
+<div id="response" style="margin-top:20px; padding:10px; background:#f0f0f0;"></div>
+
+<script>
+async function sendMsg() {
+    const msg = document.getElementById('msg').value;
+    const responseDiv = document.getElementById('response');
+    
+    try {
+        responseDiv.innerHTML = 'Sending...';
+        
+        // First get session
+        const sessionResp = await fetch('http://localhost:8001/api/v1/conversations/start', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({user_id: 'test-user', initial_message: 'test'})
+        });
+        const sessionData = await sessionResp.json();
+        
+        // Then send message
+        const msgResp = await fetch('http://localhost:8001/api/v1/chatbot/message', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify({
+                message: msg,
+                session_id: sessionData.session_id,
+                conversation_id: sessionData.conversation_id
+            })
+        });
+        const msgData = await msgResp.json();
+        
+        responseDiv.innerHTML = '<strong>AI:</strong> ' + msgData.assistant_response.substring(0, 500) + '...';
+        
+    } catch (error) {
+        responseDiv.innerHTML = '<strong>ERROR:</strong> ' + error.toString();
+    }
+}
+</script>
+</body>
+</html>
