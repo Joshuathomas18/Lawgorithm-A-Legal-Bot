@@ -9,6 +9,7 @@ This is the primary entry point that initializes all services and routes.
 
 import os
 import sys
+import uuid
 import logging
 import asyncio
 from datetime import datetime
